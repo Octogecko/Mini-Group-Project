@@ -1,0 +1,1614 @@
+fileFormatVersion: 2
+guid: e6410f457ea28cd48abd9c360dcb4655
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1060085581381559263
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_0
+  - first:
+      213: -2727965000014053439
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_1
+  - first:
+      213: -1059639965358464141
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_2
+  - first:
+      213: -8579112955347115807
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_3
+  - first:
+      213: -7714725814833356624
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_4
+  - first:
+      213: 8232433511145105420
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_5
+  - first:
+      213: -2939009362099338016
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_6
+  - first:
+      213: -2351781734101190471
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_7
+  - first:
+      213: -6086622238232742275
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_8
+  - first:
+      213: -7314204910737324879
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_9
+  - first:
+      213: 4809777330006092192
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_10
+  - first:
+      213: -2827365698014772879
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_11
+  - first:
+      213: 2087361905563261888
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_12
+  - first:
+      213: -8312678517843024454
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_13
+  - first:
+      213: 5738710010518997323
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_14
+  - first:
+      213: 1063956350829765074
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_15
+  - first:
+      213: 1978958220769446633
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_16
+  - first:
+      213: 894237363452557706
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_17
+  - first:
+      213: 8187889524289999371
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_18
+  - first:
+      213: -3012380127888298898
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_19
+  - first:
+      213: 3973789134986803250
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_20
+  - first:
+      213: 9040329004840717400
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_21
+  - first:
+      213: -3884698174146267594
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_22
+  - first:
+      213: -4642560034956657857
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_23
+  - first:
+      213: 6480452745131180225
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_24
+  - first:
+      213: 8575093871795474328
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_25
+  - first:
+      213: -7575090334925799138
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_26
+  - first:
+      213: 2151958013498631825
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_27
+  - first:
+      213: 1216179440658776663
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_28
+  - first:
+      213: 496938474421015296
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_29
+  - first:
+      213: 3500343608851297458
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_30
+  - first:
+      213: 7993833404523608194
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_31
+  - first:
+      213: -4597699127629517218
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_32
+  - first:
+      213: -2670658831908795861
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_33
+  - first:
+      213: -7096083788572033246
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_34
+  - first:
+      213: 3976246673416888783
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_35
+  - first:
+      213: -4953018562983608160
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_36
+  - first:
+      213: -4238409159728219947
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_37
+  - first:
+      213: 8633692306498928266
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_38
+  - first:
+      213: 6115672055826870864
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_39
+  - first:
+      213: -8521023678169374279
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_40
+  - first:
+      213: 6562567399195303119
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_41
+  - first:
+      213: -7922639503362310753
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_42
+  - first:
+      213: 5194559318963594176
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_43
+  - first:
+      213: 1364235168953231594
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_44
+  - first:
+      213: -5467293082892126253
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_45
+  - first:
+      213: 8582987815081996165
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_46
+  - first:
+      213: -4271322386056494150
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_47
+  - first:
+      213: 3973282438676151974
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_48
+  - first:
+      213: 3642551271088639441
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_49
+  - first:
+      213: 4888696107915745908
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_50
+  - first:
+      213: 8431931839154570021
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_51
+  - first:
+      213: -2919899466910263470
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_52
+  - first:
+      213: 3455207968974183009
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_53
+  - first:
+      213: -8171959280965147123
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_54
+  - first:
+      213: 782246890830665161
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_55
+  - first:
+      213: -2347199670949643289
+    second: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 403
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c1d32c7c1d941f0800000000000000
+      internalID: -1060085581381559263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 403
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfb67e2942542ad0800000000000000
+      internalID: -2727965000014053439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 403
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3736003d0176b41f0800000000000000
+      internalID: -1059639965358464141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 403
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e06590a83ed0f880800000000000000
+      internalID: -8579112955347115807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 403
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0625beeb9cfe490800000000000000
+      internalID: -7714725814833356624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 403
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0863dc39aa7f3270800000000000000
+      internalID: 8232433511145105420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 403
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e485848e8a8637d0800000000000000
+      internalID: -2939009362099338016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 403
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b875ad19facc5fd0800000000000000
+      internalID: -2351781734101190471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 426
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76f4289259f78ba0800000000000000
+      internalID: -6086622238232742275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 426
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b48511d269be7a90800000000000000
+      internalID: -7314204910737324879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 426
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a96db39ff2cfb240800000000000000
+      internalID: 4809777330006092192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 315
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17184bfa0ed23c8d0800000000000000
+      internalID: -2827365698014772879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 393
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbd7c2089cc7fc10800000000000000
+      internalID: 2087361905563261888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 393
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab522f33eee63ac80800000000000000
+      internalID: -8312678517843024454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 393
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4986fd795ef3af40800000000000000
+      internalID: 5738710010518997323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 329
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1aabbf9aee3ce00800000000000000
+      internalID: 1063956350829765074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 329
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea4d4e440ca67b10800000000000000
+      internalID: 1978958220769446633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 314
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89b879e428f86c00800000000000000
+      internalID: 894237363452557706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 314
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02927b142a31a170800000000000000
+      internalID: 8187889524289999371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ca5c4eb30e136d0800000000000000
+      internalID: -3012380127888298898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 359
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238f13b0a2cb52730800000000000000
+      internalID: 3973789134986803250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 359
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c013a0553b57d70800000000000000
+      internalID: 9040329004840717400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 347
+        width: 52
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6363766b797c61ac0800000000000000
+      internalID: -3884698174146267594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 333
+        width: 77
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bbbfbde30529fb0800000000000000
+      internalID: -4642560034956657857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 321
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0cf31df613fe950800000000000000
+      internalID: 6480452745131180225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 321
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f8fff817ad00770800000000000000
+      internalID: 8575093871795474328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 319
+        width: 49
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11c045997fdfd690800000000000000
+      internalID: -7575090334925799138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 245
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1962426696a4ddd10800000000000000
+      internalID: 2151958013498631825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 306
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7528997f1ccb0e010800000000000000
+      internalID: 1216179440658776663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003d61bd8ea75e600800000000000000
+      internalID: 496938474421015296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 305
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4f36577f7b39030800000000000000
+      internalID: 3500343608851297458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 243
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f746d02dcfee60800000000000000
+      internalID: 7993833404523608194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 243
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee489c001b130c0800000000000000
+      internalID: -4597699127629517218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 243
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a01df21f9efead0800000000000000
+      internalID: -2670658831908795861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 247
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f71c51465a58d90800000000000000
+      internalID: -7096083788572033246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 247
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1a75c48477e2730800000000000000
+      internalID: 3976246673416888783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 247
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a04273fbd7534bb0800000000000000
+      internalID: -4953018562983608160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d833a543552e25c0800000000000000
+      internalID: -4238409159728219947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 165
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e34e4d86901d770800000000000000
+      internalID: 8633692306498928266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 165
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052f752255b3fd450800000000000000
+      internalID: 6115672055826870864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 165
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1a50c6c1e3fb980800000000000000
+      internalID: -8521023678169374279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 165
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc5893974ce21b50800000000000000
+      internalID: 6562567399195303119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 165
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dbc9ef8512d0290800000000000000
+      internalID: -7922639503362310753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 165
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3258bbd28c61840800000000000000
+      internalID: 5194559318963594176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 165
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae86d8b78acbee210800000000000000
+      internalID: 1364235168953231594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 91
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7b34778e54024b0800000000000000
+      internalID: -5467293082892126253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 92
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fe77571f5ec1770800000000000000
+      internalID: 8582987815081996165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 81
+        width: 101
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3cde99be639b4c0800000000000000
+      internalID: -4271322386056494150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 71
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aef69d935fe32730800000000000000
+      internalID: 3973282438676151974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 81
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddc26df411fc8230800000000000000
+      internalID: 3642551271088639441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 81
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a172f653328d340800000000000000
+      internalID: 4888696107915745908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 83
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5234d1b555d340570800000000000000
+      internalID: 8431931839154570021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 83
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25716f6b7ee6a77d0800000000000000
+      internalID: -2919899466910263470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a1ecf575d53ff20800000000000000
+      internalID: 3455207968974183009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 5
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06ad13b45e579e80800000000000000
+      internalID: -8171959280965147123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c59d9617691bda00800000000000000
+      internalID: 782246890830665161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 6
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebf124d5521d6fd0800000000000000
+      internalID: -2347199670949643289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4a1cd9b083f985c4db8dba7fdd2b7b37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_0: -1060085581381559263
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_1: -2727965000014053439
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_10: 4809777330006092192
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_11: -2827365698014772879
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_12: 2087361905563261888
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_13: -8312678517843024454
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_14: 5738710010518997323
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_15: 1063956350829765074
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_16: 1978958220769446633
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_17: 894237363452557706
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_18: 8187889524289999371
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_19: -3012380127888298898
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_2: -1059639965358464141
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_20: 3973789134986803250
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_21: 9040329004840717400
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_22: -3884698174146267594
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_23: -4642560034956657857
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_24: 6480452745131180225
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_25: 8575093871795474328
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_26: -7575090334925799138
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_27: 2151958013498631825
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_28: 1216179440658776663
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_29: 496938474421015296
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_3: -8579112955347115807
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_30: 3500343608851297458
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_31: 7993833404523608194
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_32: -4597699127629517218
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_33: -2670658831908795861
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_34: -7096083788572033246
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_35: 3976246673416888783
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_36: -4953018562983608160
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_37: -4238409159728219947
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_38: 8633692306498928266
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_39: 6115672055826870864
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_4: -7714725814833356624
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_40: -8521023678169374279
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_41: 6562567399195303119
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_42: -7922639503362310753
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_43: 5194559318963594176
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_44: 1364235168953231594
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_45: -5467293082892126253
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_46: 8582987815081996165
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_47: -4271322386056494150
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_48: 3973282438676151974
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_49: 3642551271088639441
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_5: 8232433511145105420
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_50: 4888696107915745908
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_51: 8431931839154570021
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_52: -2919899466910263470
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_53: 3455207968974183009
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_54: -8171959280965147123
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_55: 782246890830665161
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_56: -2347199670949643289
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_6: -2939009362099338016
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_7: -2351781734101190471
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_8: -6086622238232742275
+      Screenshot_2026-11-03_at_11-44-34_RoS_ArmoredKnight.png__PNG_Image_576___516_pixels_-removebg-preview_9: -7314204910737324879
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
