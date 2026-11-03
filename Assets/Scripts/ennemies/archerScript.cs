@@ -2,15 +2,26 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private Rigidbody2D rigidbody;
+    [SerializeField] private float speed = 3.0f;
+    [SerializeField] private int directionStart = 1;
+    [SerializeField] private int currentDirection;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    private float spriteMoitieLargeur;
+    private Vector2 movement;
+  
     void Start()
     {
-        
+        currentDirection = -directionStart;
+        spriteMoitieLargeur = spriteRenderer.bounds.extents.x; // On prend la moitié de la largeur du sprite
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        movement.x = speed * currentDirection;
+        movement.y = rigidbody.linearVelocity.y;
+        rigidbody.linearVelocity = movement;
+
         
     }
 }
