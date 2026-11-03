@@ -297,11 +297,11 @@ Transform:
   m_GameObject: {fileID: 275907484}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.348747, y: -0.14919747, z: 0}
-  m_LocalScale: {x: 0.36168426, y: 0.30146992, z: 1}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1887855683}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887855678
 GameObject:
@@ -314,11 +314,10 @@ GameObject:
   - component: {fileID: 1887855683}
   - component: {fileID: 1887855682}
   - component: {fileID: 1887855681}
-  - component: {fileID: 1887855680}
   - component: {fileID: 1887855679}
   - component: {fileID: 1887855684}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,28 +341,6 @@ MonoBehaviour:
   stunned: 0
   leftPoint: {fileID: 275907486}
   rightPoint: {fileID: 2120645996}
---- !u!95 &1887855680
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887855678}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bec3cc9114f9f5d4291f4c72b8eb3ffb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &1887855681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -398,17 +375,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0019897968, y: 0.0016531646}
+  m_Offset: {x: 0.0019897968, y: -0.033254713}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.36, y: 0.6}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.7, y: 0.7}
+    newSize: {x: 0.7, y: 0.7}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.36726186, y: 0.6065369}
+  m_Size: {x: 0.36726186, y: 0.6763527}
   m_EdgeRadius: 0
 --- !u!212 &1887855682
 SpriteRenderer:
@@ -459,15 +436,15 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1060085581381559263, guid: e6410f457ea28cd48abd9c360dcb4655, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3f3384f8eab5244e9c29a115e37f819, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 0.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!4 &1887855683
@@ -479,12 +456,10 @@ Transform:
   m_GameObject: {fileID: 1887855678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4936, y: 0.0049, z: 0}
-  m_LocalScale: {x: 2.7648423, y: 3.3170805, z: 1}
+  m_LocalPosition: {x: -2.71, y: -0.46, z: 0}
+  m_LocalScale: {x: 2.7648423, y: 3.2762804, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 275907486}
-  - {fileID: 2120645996}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1887855684
@@ -600,15 +575,17 @@ Transform:
   m_GameObject: {fileID: 2120645994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4454349, y: -0.14015338, z: 0}
-  m_LocalScale: {x: 0.36168426, y: 0.30146992, z: 1}
+  m_LocalPosition: {x: -9.5, y: 0.51, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1887855683}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 3016151}
+  - {fileID: 275907486}
+  - {fileID: 2120645996}
   - {fileID: 1887855683}

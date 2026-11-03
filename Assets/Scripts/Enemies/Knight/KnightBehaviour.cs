@@ -32,8 +32,7 @@ public class KnightBehaviour : MonoBehaviour
     void Update()
     {
         // Main code for pathfinding
-        transform.position = Vector2.MoveTowards
-            (transform.position,currentTarget.position,speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position,currentTarget.position,speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, currentTarget.position) < 0.1f)
         {
             currentTarget = (currentTarget == leftPoint) ? rightPoint : leftPoint;
