@@ -7,8 +7,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] private int directionStart = 1;
     [SerializeField] private int currentDirection;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private LayerMask groundLayers;
     private float spriteMoitieLargeur;
-    private Vector2 movement;
+    private Vector3 movement;
   
     void Start()
     {
@@ -20,8 +21,16 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         movement.x = speed * currentDirection;
         movement.y = rigidbody.linearVelocity.y;
-        rigidbody.linearVelocity = movement;
-
-        
+        rigidbody.AddForce(movement);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, -spriteMoitieLargeur - 0.1f, groundLayers);
+        if (hit && rigidbody.linearVelocity.x > 0)
+        {
+            currentDirection *= -1;
+        }
+        Debug.DrawRay(transform.position, Vector2.left * (-spriteMoitieLargeur - 0.1f), Color.red);  
     }
+
+
+
+
 }
