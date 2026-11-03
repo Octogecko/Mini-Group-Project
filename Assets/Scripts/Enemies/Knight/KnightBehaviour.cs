@@ -1,4 +1,6 @@
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class KnightBehaviour : MonoBehaviour
 {
@@ -6,9 +8,13 @@ public class KnightBehaviour : MonoBehaviour
     public PlayerInventory playerInventory; // need to put the coresponding script in the player
     public bool triggered = false;
     public bool stunned = false;
+    public Transform leftPoint; 
+    public Transform rightPoint; 
+    private Transform currentTarget;
+
     void Start()
     {
-
+        currentTarget = rightPoint;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,8 +31,14 @@ public class KnightBehaviour : MonoBehaviour
     }
     void Update()
     {
-        transform.position = new Vector3(speed * Time.deltaTime, 0);
-
+        // Main code for pathfinding
+        transform.position = Vector2.MoveTowards
+            (transform.position,currentTarget.position,speed * Time.deltaTime);
+        if (Vector2.Distance(transform.position, currentTarget.position) < 0.1f)
+        {
+            currentTarget = (currentTarget == leftPoint) ? rightPoint : leftPoint;
+            GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+        }
     }
 }
 
