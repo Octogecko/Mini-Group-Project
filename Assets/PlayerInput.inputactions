@@ -37,10 +37,10 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "39cff8ae-4157-465f-a34e-a8ad04fa01cf",
-                    "path": "<Gamepad>/leftStick",
+                    "id": "4cacda3b-500a-4a0a-8ec8-5b7168958552",
+                    "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
-                    "processors": "StickDeadzone(min=0.5)",
+                    "processors": "",
                     "groups": "",
                     "action": "Movement",
                     "isComposite": false,
@@ -48,7 +48,7 @@
                 },
                 {
                     "name": "Keyboard",
-                    "id": "7a6bc8fa-ac42-4fb6-b78b-20c6e8f6e16c",
+                    "id": "663c84e5-685a-47d2-8379-a608e28a9541",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -59,7 +59,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "22d5bf91-f9b1-42d9-b4aa-9df45186f295",
+                    "id": "8345a676-1d9d-4b71-bd1c-d1d689cfd829",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -70,8 +70,41 @@
                 },
                 {
                     "name": "positive",
-                    "id": "0cc46ab2-011b-4b8e-9b35-5f9f80d01a5a",
+                    "id": "4c05e3c7-bb5c-4763-b4a5-6ed38f12890d",
                     "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "D-Pad",
+                    "id": "3368a162-6520-42fc-b2b2-323c324c4bf8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3e68e1ea-9269-469f-9aab-d7badcfab223",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "73ba5c82-0ba4-436b-91db-1250bb2dd57a",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
