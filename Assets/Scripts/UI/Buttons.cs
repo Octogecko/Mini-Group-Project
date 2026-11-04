@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
@@ -12,5 +14,40 @@ public class Buttons : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Main()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Resume()
+    {
+
+    }
+
+    public void Pause()
+    {
+        
+    }
+
+    public void Quit()
+    {
+        
+    }
+
+    public void GameOver()
+    {
+        Invoke("Main", 3f);
     }
 }
