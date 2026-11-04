@@ -15,8 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    private float speed;
+    [SerializeField] private float speed;
     private int movement;
+    private int direction;
     private bool accelerating = false;
     private bool decelerating = false;
     private bool jump = false;
@@ -33,18 +34,8 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.position += new Vector3(movement, 0) * speed * Time.deltaTime;
 
-        if (accelerating && speed < maxSpeed)
-        {
-            if (speed + accelerationSpeed * Time.deltaTime > maxSpeed)
-            {
-                speed = maxSpeed;
-            }
-            else
-            {
-                speed += accelerationSpeed * Time.deltaTime;
-            }
-        }
-        else if (decelerating && speed > 0)
+        
+        if (decelerating && speed > baseSpeed)
         {
             if (speed - decelerationSpeed * Time.deltaTime < 0)
             {
@@ -57,7 +48,19 @@ public class PlayerMovement : MonoBehaviour
                 speed -= decelerationSpeed * Time.deltaTime;
             }
         }
-        else
+        else if (accelerating && speed < maxSpeed)
+        {
+            movement = direction;
+            if (speed + accelerationSpeed * Time.deltaTime > maxSpeed)
+            {
+                speed = maxSpeed;
+            }
+            else
+            {
+                speed += accelerationSpeed * Time.deltaTime;
+            }
+        }
+        else if (movement == 0)
         {
             speed = baseSpeed;
         }
@@ -78,11 +81,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (context.started)
         {
-            if (!decelerating)
-            {
-                accelerating = true;
-                movement = input > 0 ? 1 : -1;
-            }
+            
+            accelerating = true;
+            direction = input > 0 ? 1 : -1;
             spriteRenderer.flipX = input < 0;
             animator.SetBool("walking", true);
         }
