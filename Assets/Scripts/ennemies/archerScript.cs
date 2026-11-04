@@ -2,35 +2,44 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rigidbody;
-    [SerializeField] private float speed = 3.0f;
-    [SerializeField] private int directionStart = 1;
-    [SerializeField] private int currentDirection;
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private LayerMask groundLayers;
-    private float spriteMoitieLargeur;
-    private Vector3 movement;
-  
+    public GameObject pointA;
+    public GameObject pointB;
+    private Transform currentPoint;
+    private Rigidbody2D rb;
+    public float speed = 2f;
     void Start()
     {
-        currentDirection = -directionStart;
-        spriteMoitieLargeur = spriteRenderer.bounds.extents.x; // On prend la moitié de la largeur du sprite
+        currentPoint = pointA.transform;
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        movement.x = speed * currentDirection;
-        movement.y = rigidbody.linearVelocity.y;
-        rigidbody.AddForce(movement);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, -spriteMoitieLargeur - 0.1f, groundLayers);
-        if (hit && rigidbody.linearVelocity.x > 0)
+        Vector2 point = currentPoint.position - transform.position;
+        if (currentPoint == pointA.transform)
         {
-            currentDirection *= -1;
+            rb.linearVelocity = new Vector2(-speed, 0);
         }
-        Debug.DrawRay(transform.position, Vector2.left * (-spriteMoitieLargeur - 0.1f), Color.red);  
+        else
+        {
+            rb.linearVelocity = new Vector2(speed, 0);
+        }
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+        {
+            currentPoint = pointB.transform;
+        }
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+        {
+            currentPoint = pointA.transform;
+        }
     }
 
-
-
-
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(pointA.transform.position, 0.5f);
+        Gizmos.DrawSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
+    }
 }
