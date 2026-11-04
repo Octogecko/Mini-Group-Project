@@ -37,7 +37,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "39cff8ae-4157-465f-a34e-a8ad04fa01cf",
+                    "id": "4cacda3b-500a-4a0a-8ec8-5b7168958552",
                     "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
                     "processors": "",
@@ -48,7 +48,7 @@
                 },
                 {
                     "name": "Keyboard",
-                    "id": "7a6bc8fa-ac42-4fb6-b78b-20c6e8f6e16c",
+                    "id": "663c84e5-685a-47d2-8379-a608e28a9541",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -59,7 +59,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "22d5bf91-f9b1-42d9-b4aa-9df45186f295",
+                    "id": "8345a676-1d9d-4b71-bd1c-d1d689cfd829",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "0cc46ab2-011b-4b8e-9b35-5f9f80d01a5a",
+                    "id": "4c05e3c7-bb5c-4763-b4a5-6ed38f12890d",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "D-Pad",
-                    "id": "d8f41434-f000-4bc2-a8a6-5f00ed7d2629",
+                    "id": "3368a162-6520-42fc-b2b2-323c324c4bf8",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "ce8887a2-3c5a-4911-86b9-ff215894af62",
+                    "id": "3e68e1ea-9269-469f-9aab-d7badcfab223",
                     "path": "<Gamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "8424c65d-e1f0-4cab-8451-3e6401e2c9a4",
+                    "id": "73ba5c82-0ba4-436b-91db-1250bb2dd57a",
                     "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",

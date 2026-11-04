@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxSpeed = 7f;
     [SerializeField] private float accelerationSpeed = 14f;
     [SerializeField] private float decelerationSpeed = 15f;
+    [SerializeField] private float runningMaxSpeed = 20f;
     [SerializeField] private float inAirAcceleration = 3f;
 
     [SerializeField] private float jumpForce = 17.5f;
@@ -29,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     private int direction;
     private bool accelerating = false;
     private bool decelerating = false;
+    private float decelerateTargetSpeed = 0f;
+    private bool running = false;
 
     // Jump
 
@@ -46,15 +49,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(new Vector3(movement, 0).normalized * speed * Time.deltaTime);
-
         ChangeSpeed();
+        if (speed == baseSpeed) movement = 0;
 
         CheckGround();
     }
 
     private void FixedUpdate()
     {
+        transform.Translate(new Vector3(movement, 0).normalized * speed * Time.fixedDeltaTime);
+
         if (jump)
         {
             rigidBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
@@ -68,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (context.started)
         {
-            
             accelerating = true;
             direction = input > 0 ? 1 : -1;
             spriteRenderer.flipX = input < 0;
@@ -77,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
         else if (context.canceled)
         {
             decelerating = true;
+            decelerateTargetSpeed = baseSpeed;
             accelerating = false;
             animator.SetBool("walking", false);
         }
@@ -105,27 +109,40 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnRun(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            running = true;
+        }
+        else if (context.canceled)
+        {
+            running = false;
+            decelerating = true;
+            decelerateTargetSpeed = maxSpeed;
+        }
+    }
+
     private void ChangeSpeed()
     {
-        if (decelerating && speed > baseSpeed)
+        if (decelerating && speed > decelerateTargetSpeed)
         {
-            if (speed - decelerationSpeed * Time.deltaTime < 0)
+            if (speed - decelerationSpeed * Time.deltaTime < decelerateTargetSpeed)
             {
-                speed = 0;
+                speed = decelerateTargetSpeed;
                 decelerating = false;
-                movement = 0;
             }
             else
             {
                 speed -= decelerationSpeed * Time.deltaTime;
             }
         }
-        else if (accelerating && speed < maxSpeed)
+        else if (accelerating && speed < (running ? runningMaxSpeed : maxSpeed))
         {
             movement = direction;
-            if (speed + accelerationSpeed * Time.deltaTime > maxSpeed)
+            if (speed + accelerationSpeed * Time.deltaTime > (running ? runningMaxSpeed : maxSpeed))
             {
-                speed = maxSpeed;
+                speed = (running ? runningMaxSpeed : maxSpeed);
             }
             else if (isGrounded)
             {
