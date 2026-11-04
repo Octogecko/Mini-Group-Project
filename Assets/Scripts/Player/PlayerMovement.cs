@@ -3,24 +3,38 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float baseSpeed = 5f;
-    [SerializeField] private float maxSpeed = 8f;
-    [SerializeField] float accelerationSpeed = 8f;
-    [SerializeField] float decelerationSpeed = 6f;
-    [SerializeField] float jumpForce = 5f;
-    [SerializeField] float upGravity = 1f;
-    [SerializeField] float downGravity = 4f;
+    // Constants
+
+    [SerializeField] private float baseSpeed = 0f;
+    [SerializeField] private float maxSpeed = 7f;
+    [SerializeField] private float accelerationSpeed = 14f;
+    [SerializeField] private float decelerationSpeed = 15f;
+    [SerializeField] private float inAirAcceleration = 3f;
+
+    [SerializeField] private float jumpForce = 17.5f;
+    [SerializeField] private float upGravity = 1f;
+    [SerializeField] private float downGravity = 3.5f;
+    [SerializeField] private LayerMask groundLayers;
+
+    // References
 
     private Rigidbody2D rigidBody;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    // Movement
 
     [SerializeField] private float speed;
     private int movement;
     private int direction;
     private bool accelerating = false;
     private bool decelerating = false;
+
+    // Jump
+
     private bool jump = false;
+    private bool isJumping = false;
+    private bool isGrounded = false;
 
     private void Start()
     {
@@ -32,38 +46,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.position += new Vector3(movement, 0) * speed * Time.deltaTime;
+        transform.Translate(new Vector3(movement, 0).normalized * speed * Time.deltaTime);
 
-        
-        if (decelerating && speed > baseSpeed)
-        {
-            if (speed - decelerationSpeed * Time.deltaTime < 0)
-            {
-                speed = 0;
-                decelerating = false;
-                movement = 0;
-            }
-            else
-            {
-                speed -= decelerationSpeed * Time.deltaTime;
-            }
-        }
-        else if (accelerating && speed < maxSpeed)
-        {
-            movement = direction;
-            if (speed + accelerationSpeed * Time.deltaTime > maxSpeed)
-            {
-                speed = maxSpeed;
-            }
-            else
-            {
-                speed += accelerationSpeed * Time.deltaTime;
-            }
-        }
-        else if (movement == 0)
-        {
-            speed = baseSpeed;
-        }
+        ChangeSpeed();
+
+        CheckGround();
     }
 
     private void FixedUpdate()
@@ -103,10 +90,78 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, -0.3f);
-        if (context.started && hit)
+        if (context.started && isGrounded)
         {
             jump = true;
+            isJumping = true;
+            isGrounded = false;
+            animator.SetBool("jumping", true);
+            Invoke("StartFalling", 0.4f);
         }
+        if (context.canceled && !isGrounded)
+        {
+            CancelInvoke("StartFalling");
+            StartFalling();
+        }
+    }
+
+    private void ChangeSpeed()
+    {
+        if (decelerating && speed > baseSpeed)
+        {
+            if (speed - decelerationSpeed * Time.deltaTime < 0)
+            {
+                speed = 0;
+                decelerating = false;
+                movement = 0;
+            }
+            else
+            {
+                speed -= decelerationSpeed * Time.deltaTime;
+            }
+        }
+        else if (accelerating && speed < maxSpeed)
+        {
+            movement = direction;
+            if (speed + accelerationSpeed * Time.deltaTime > maxSpeed)
+            {
+                speed = maxSpeed;
+            }
+            else if (isGrounded)
+            {
+                speed += accelerationSpeed * Time.deltaTime;
+            }
+            else
+            {
+                speed += inAirAcceleration * Time.deltaTime;
+            }
+        }
+        else if (movement == 0)
+        {
+            speed = baseSpeed;
+        }
+    }
+
+    private void CheckGround()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, groundLayers);
+        if (hit)
+        {
+            isGrounded = true;
+            // isJumping = false; MARIE AIDE MOI
+            animator.SetBool("jumping", false);
+            rigidBody.gravityScale = upGravity;
+        }
+        else
+        {
+            isGrounded = false;
+            animator.SetBool("jumping", true);
+            if (!isJumping) rigidBody.gravityScale = downGravity;
+        }
+    }
+
+    private void StartFalling()
+    {
+        rigidBody.gravityScale = downGravity;
     }
 }
