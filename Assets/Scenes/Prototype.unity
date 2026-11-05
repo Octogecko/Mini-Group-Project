@@ -1044,6 +1044,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &706915245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+  m_PrefabInstance: {fileID: 483157574293601202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1074419623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1194,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
   m_PrefabInstance: {fileID: 483157574293601202}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2116147696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706915245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf1a5b2ca5aa154882edcb82463b27d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HammerSkill
+  Usinghammer: 0
 --- !u!1001 &483157574293601202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1204,6 +1222,46 @@ PrefabInstance:
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Offset.x
       value: -0.005061507
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: ff9b3ccd-12d2-4fb6-80c0-779bdfc47a4d
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: 'Gameplay/HammerSkill[/Keyboard/e]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2116147696}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseHammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HammerSkill, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1260,7 +1318,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2116147696}
   m_SourcePrefab: {fileID: 100100000, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
