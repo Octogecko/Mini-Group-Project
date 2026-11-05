@@ -21,10 +21,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
            Vector2 point = currentPoint.position - transform.position;
             if (currentPoint == pointA.transform)
             {
+                //GetComponent<SpriteRenderer>().flipX = true if point is in opposite direction from the animation else false 
+                //Put the walking animation
                 rb.linearVelocity = new Vector2(-speed, 0);
             }
             else
             {
+                //GetComponent<SpriteRenderer>().flipX = true if point is in opposite direction from the animation else false 
                 rb.linearVelocity = new Vector2(speed, 0);
             }
 

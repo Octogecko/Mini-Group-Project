@@ -14,11 +14,13 @@ public class InfantrymenScript : MonoBehaviour
         if (PlayerIsHigher(player.transform, gameObject.transform))
         {
             Debug.Log(player + " is higher " + gameObject);
+            //Protection animation active
         }
 
         else
         {
             Debug.Log("No worries.");
+            //Protection animation disabled
         }
     }
 
