@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 3a5d2d2ea36df534994ff868f0dd2e22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4122113517222816754
+    second: tower_platerform01_0
+  - first:
+      213: 321766656865453739
+    second: tower_platerform01_1
+  - first:
+      213: -6695311311121338191
+    second: tower_platerform01_2
+  - first:
+      213: 2523757442066243846
+    second: tower_platerform01_3
+  - first:
+      213: 3087420243468467240
+    second: tower_platerform01_4
+  - first:
+      213: -1043412290066746466
+    second: tower_platerform01_5
+  - first:
+      213: 4324377491540456983
+    second: tower_platerform01_6
+  - first:
+      213: 293207536803298301
+    second: tower_platerform01_7
+  - first:
+      213: 3513996644542345161
+    second: tower_platerform01_8
+  - first:
+      213: 3080120591017242300
+    second: tower_platerform01_9
+  - first:
+      213: 866758773400325076
+    second: tower_platerform01_10
+  - first:
+      213: 8664020616765953030
+    second: tower_platerform01_11
+  - first:
+      213: -3375534508256493541
+    second: tower_platerform01_12
+  - first:
+      213: -6769561842217947295
+    second: tower_platerform01_13
+  - first:
+      213: 154452729181756415
+    second: tower_platerform01_14
+  - first:
+      213: 1763094077060280267
+    second: tower_platerform01_15
+  - first:
+      213: -2930770912741168991
+    second: tower_platerform01_16
+  - first:
+      213: 3098093680543782308
+    second: tower_platerform01_17
+  - first:
+      213: -6656726489684625500
+    second: tower_platerform01_18
+  - first:
+      213: 8532379272593745036
+    second: tower_platerform01_19
+  - first:
+      213: 2673027319765025516
+    second: tower_platerform01_20
+  - first:
+      213: -2588154497365220994
+    second: tower_platerform01_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tower_platerform01_0
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 76
+        width: 644
+        height: 2366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbe6ed6760b43930800000000000000
+      internalID: 4122113517222816754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_1
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 838
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c703d115277400800000000000000
+      internalID: 321766656865453739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_2
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 162
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b035f7f5d97513a0800000000000000
+      internalID: -6695311311121338191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 209
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6016b99a500360320800000000000000
+      internalID: 2523757442066243846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_4
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 202
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb9448a58b8da20800000000000000
+      internalID: 3087420243468467240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_5
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 159
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e937b48ec0e0581f0800000000000000
+      internalID: -1043412290066746466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_6
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 211
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716b6f1ca66430c30800000000000000
+      internalID: 4324377491540456983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_7
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 62
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbb0a483bea11400800000000000000
+      internalID: 293207536803298301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_8
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 104
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf6cdb845934c030800000000000000
+      internalID: 3513996644542345161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_9
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 19
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee2fcbb59ceba20800000000000000
+      internalID: 3080120591017242300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_10
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 87
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbca7a1388570c00800000000000000
+      internalID: 866758773400325076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_11
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 81
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604def4d8d8cc3870800000000000000
+      internalID: 8664020616765953030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 46
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b108c44cf31b721d0800000000000000
+      internalID: -3375534508256493541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_13
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 42
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f6f850f5fad02a0800000000000000
+      internalID: -6769561842217947295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbd77950f9b42200800000000000000
+      internalID: 154452729181756415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_15
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe5c8c8b4c77810800000000000000
+      internalID: 1763094077060280267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_16
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 44
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8e30cf16fc357d0800000000000000
+      internalID: -2930770912741168991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_17
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 40
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5d1bdb9c3aefa20800000000000000
+      internalID: 3098093680543782308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_18
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a73a67c68e8e93a0800000000000000
+      internalID: -6656726489684625500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_19
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 34
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c842bdfedb9196670800000000000000
+      internalID: 8532379272593745036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_20
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2428d5f20881520800000000000000
+      internalID: 2673027319765025516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tower_platerform01_21
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 34
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7167b08237051cd0800000000000000
+      internalID: -2588154497365220994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tower_platerform01_0: 4122113517222816754
+      tower_platerform01_1: 321766656865453739
+      tower_platerform01_10: 866758773400325076
+      tower_platerform01_11: 8664020616765953030
+      tower_platerform01_12: -3375534508256493541
+      tower_platerform01_13: -6769561842217947295
+      tower_platerform01_14: 154452729181756415
+      tower_platerform01_15: 1763094077060280267
+      tower_platerform01_16: -2930770912741168991
+      tower_platerform01_17: 3098093680543782308
+      tower_platerform01_18: -6656726489684625500
+      tower_platerform01_19: 8532379272593745036
+      tower_platerform01_2: -6695311311121338191
+      tower_platerform01_20: 2673027319765025516
+      tower_platerform01_21: -2588154497365220994
+      tower_platerform01_3: 2523757442066243846
+      tower_platerform01_4: 3087420243468467240
+      tower_platerform01_5: -1043412290066746466
+      tower_platerform01_6: 4324377491540456983
+      tower_platerform01_7: 293207536803298301
+      tower_platerform01_8: 3513996644542345161
+      tower_platerform01_9: 3080120591017242300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

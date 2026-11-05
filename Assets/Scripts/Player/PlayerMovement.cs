@@ -17,11 +17,11 @@
         [SerializeField] private float jumpBuffer = 0.1f;
         [SerializeField] private float upGravity = 1f;
         [SerializeField] private float downGravity = 3.5f;
-        [SerializeField] private LayerMask groundLayers;
+        public LayerMask groundLayers;  // Ernestin => J'ai modifié ça en public
 
-        // References
+    // References
 
-        private Rigidbody2D rigidBody;
+    private Rigidbody2D rigidBody;
         private Animator animator;
         private SpriteRenderer spriteRenderer;
 
