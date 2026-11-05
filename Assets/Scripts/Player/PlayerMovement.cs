@@ -81,10 +81,7 @@
 
         private void FixedUpdate()
         {
-            if (!GetComponent<HammerSkill>().Usinghammer)
-            {
-                transform.Translate(new Vector3(movement, 0).normalized * speed * Time.fixedDeltaTime);
-            }
+            transform.Translate(new Vector3(movement, 0).normalized * speed * Time.fixedDeltaTime);
 
             if (jump && isGrounded)
             {
@@ -104,30 +101,27 @@
 
         public void OnMovement(InputAction.CallbackContext context)
         {
-            if (!GetComponent<HammerSkill>().Usinghammer)  // Ernestin => J'ai ajouté ça
-        {
-                float input = context.ReadValue<float>();
+            float input = context.ReadValue<float>();
 
-                if (context.started)
-                {
-                    accelerating = true;
-                    direction = input > 0 ? 1 : -1;
-                    spriteRenderer.flipX = input < 0;
-                    animator.SetBool("walking", true);
-                }
-                else if (context.canceled)
-                {
-                    decelerating = true;
-                    decelerateTargetSpeed = baseSpeed;
-                    accelerating = false;
-                    animator.SetBool("walking", false);
-                }
+            if (context.started)
+            {
+                accelerating = true;
+                direction = input > 0 ? 1 : -1;
+                spriteRenderer.flipX = input < 0;
+                animator.SetBool("walking", true);
+            }
+            else if (context.canceled)
+            {
+                decelerating = true;
+                decelerateTargetSpeed = baseSpeed;
+                accelerating = false;
+                animator.SetBool("walking", false);
+            }
 
-                if (!decelerating && !accelerating && input != 0)
-                {
-                    accelerating = true;
-                    movement = input > 0 ? 1 : -1;
-                }
+            if (!decelerating && !accelerating && input != 0)
+            {
+                accelerating = true;
+                movement = input > 0 ? 1 : -1;
             }
         }
 
@@ -206,11 +200,6 @@
             RaycastHit2D right = Physics2D.Raycast(new Vector3(transform.position.x + 0.4f, transform.position.y), Vector2.down, 0.6f, groundLayers);
             if (left || right)
             {
-                if (GetComponent<HammerSkill>().Usinghammer) // Ernestin => J'ai ajouté ça
-                {   
-                    GetComponent<HammerSkill>().Usinghammer = false;
-                    rigidBody.gravityScale = upGravity;
-                }
                 isGrounded = true;
                 timeNotGrounded = 0f;
                 animator.SetBool("jumping", false);
