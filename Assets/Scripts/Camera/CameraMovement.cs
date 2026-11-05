@@ -3,6 +3,8 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private float yOffset = 3f;
+    [SerializeField] private float minX = 0f;
+    [SerializeField] private float maxX = 1000f;
     private Transform playerTransform;
     private Vector3 targetPosition = new Vector3();
     private bool yLocked = false;
@@ -21,7 +23,16 @@ public class CameraMovement : MonoBehaviour
         {
             targetPosition.y = targetY;
         }
-        targetPosition.y += yOffset;    
+        targetPosition.y += yOffset;
+
+        if (targetPosition.x < minX)
+        {
+            targetPosition.x = minX;
+        }
+        else if (targetPosition.x > maxX)
+        {
+            targetPosition.x = maxX;
+        }
     }
 
     private void FixedUpdate()
