@@ -2,25 +2,32 @@ using UnityEngine;
 
 public class ParralaxSystem : MonoBehaviour
 {
-    private Camera Cam;
-    [Header("Layers")]
-    [SerializeField] private LayerMask Foregroudlayer, FirstBackGround, SecondBackGround;
+    [SerializeField] private GameObject Cam;
+    private Vector3 CamPos;
+    //[Header("Layers")]
+    //[SerializeField] private LayerMask Foregroudlayer, FirstBackGround, SecondBackGround;
     [Header("Ref")]
-    [SerializeField] private GameObject GMForegroudlayer, GMFirstBackGround, GMSecondBackGround;
+    [SerializeField] private GameObject GMForegroudlayer, GMFirstBackground, GMSky;
     [Header("Strengh")]
-    [SerializeField] private float StenghForegroudlayer, StenghFirstBackGround, StenghSecondBackGround;
+    [SerializeField] private float StenghForegroudlayer, StenghFirstBackground, StenghSky;
     void Start()
     {
-        Cam = Camera.main;
+        CamPos = Cam.transform.position;
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        GMForegroudlayer.transform.position += new Vector3(StenghForegroudlayer * Time.deltaTime, 0, 0);
+        if (CamPos != Cam.transform.position)
+        {
+            GMForegroudlayer.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
 
-        GMFirstBackGround.transform.position += new Vector3(StenghForegroudlayer * Time.deltaTime, 0, 0);
+            GMFirstBackground.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
 
-        GMSecondBackGround.transform.position += new Vector3(StenghForegroudlayer * Time.deltaTime, 0, 0);
+            GMSky.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
+
+
+            CamPos = Cam.transform.position;
+        }
     }
 }
