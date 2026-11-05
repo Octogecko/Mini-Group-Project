@@ -200,6 +200,14 @@
             RaycastHit2D right = Physics2D.Raycast(new Vector3(transform.position.x + 0.4f, transform.position.y), Vector2.down, 0.6f, groundLayers);
             if (left || right)
             {
+<<<<<<< Updated upstream
+=======
+                if (GetComponent<HammerSkill>().Usinghammer) // Ernestin => J'ai ajouté ça
+                {
+                    GetComponent<HammerSkill>().Usinghammer = false;
+                    rigidBody.gravityScale = upGravity;
+                }
+>>>>>>> Stashed changes
                 isGrounded = true;
                 timeNotGrounded = 0f;
                 animator.SetBool("jumping", false);
