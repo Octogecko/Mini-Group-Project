@@ -79,6 +79,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   yOffset: 3
+  minX: -1000
+  maxX: 1000
 --- !u!1 &5129679544297107528
 GameObject:
   m_ObjectHideFlags: 0
