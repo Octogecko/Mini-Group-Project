@@ -5,9 +5,6 @@ using UnityEngine.AI;
 public class KnightBehaviour : MonoBehaviour
 {
     public float speed = 2f;
-    public PlayerInventory playerInventory; // need to put the coresponding script in the player
-    public bool triggered = false;
-    public bool stunned = false;
     public Transform leftPoint; 
     public Transform rightPoint; 
     private Transform currentTarget;
@@ -19,13 +16,8 @@ public class KnightBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && (!playerInventory.HammerInInventory))
-        {
-            stunned = true;
-            GetComponent<Animator>().SetTrigger("Stunned");
-        }
-        else if (collision.gameObject.CompareTag("Player") && (!playerInventory.HammerInInventory))
-        {
+        if (collision.gameObject.CompareTag("Player"))
+        { 
             Destroy(gameObject, 2f);
         }
     }

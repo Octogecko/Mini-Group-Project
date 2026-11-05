@@ -21,11 +21,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
            Vector2 point = currentPoint.position - transform.position;
             if (currentPoint == pointL.transform)
             {
-                rb.linearVelocity = new Vector2(-speed, 0);
+            GetComponent<SpriteRenderer>().flipX = false;
+                rb.linearVelocity = new Vector2(-speed, 0); 
             }
             else
             {
-            GetComponent<SpriteRenderer>().flipX = true; 
+                GetComponent<SpriteRenderer>().flipX = true; 
                 rb.linearVelocity = new Vector2(speed, 0);
             }
 
