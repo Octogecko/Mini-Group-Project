@@ -1777,6 +1777,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1902,6 +1903,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa8eae3e35bd3d459e30d95e1b396fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cameraFollow
+  player: {fileID: 1412538030}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &583962372
 GameObject:
   m_ObjectHideFlags: 0
@@ -4344,7 +4359,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7143407655473888323, guid: 0be6d67ee08267c4e9530af8a846079f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4715,7 +4730,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7143407655473888323, guid: 0be6d67ee08267c4e9530af8a846079f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4883,6 +4898,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 792852336}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1412538030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+  m_PrefabInstance: {fileID: 2137325159}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1452356640
 GameObject:
   m_ObjectHideFlags: 0
