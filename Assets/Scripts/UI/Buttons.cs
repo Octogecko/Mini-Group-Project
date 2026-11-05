@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+    public bool paused = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,19 +32,23 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void Resume()
-    {
-
-    }
-
     public void Pause()
     {
-        
+        if (paused)
+        {
+            paused = false;
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            paused = true;
+            Time.timeScale = 0f;
+        }
     }
 
     public void Quit()
     {
-        
+        Application.Quit();
     }
 
     public void GameOver()
