@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
         {
             targetPosition.y = targetY;
         }
-        targetPosition.y += yOffset;
+        targetPosition.y += yOffset;    
     }
 
     private void FixedUpdate()
