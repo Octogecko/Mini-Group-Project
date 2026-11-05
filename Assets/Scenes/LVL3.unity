@@ -438,6 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 79306575}
   - component: {fileID: 79306576}
+  - component: {fileID: 79306577}
   m_Layer: 0
   m_Name: TONNEAU_0 (2)
   m_TagString: Untagged
@@ -454,7 +455,7 @@ Transform:
   m_GameObject: {fileID: 79306574}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.15, y: -17.38, z: 0}
+  m_LocalPosition: {x: 69.95, y: -16.679998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -520,6 +521,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!95 &79306577
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79306574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 821428b0a6018cf43a7512e55130d408, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &83508172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,11 +1252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.9
+      value: -52.424183
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9
+      value: 1.0078981
       objectReference: {fileID: 0}
     - target: {fileID: 7932892639068502065, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1542,7 +1565,7 @@ Transform:
   m_GameObject: {fileID: 315288415}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -71.57868, y: -4.218591, z: 0}
+  m_LocalPosition: {x: -71.47868, y: -4.1185913, z: 0}
   m_LocalScale: {x: 0.7355, y: 0.7355, z: 0.7355}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1598,15 +1621,15 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 15
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3330850549432674594, guid: ac9411da44a0bdb42ae88bf347ab87eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2db9b86cd705b3044a60bd322fcf5860, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.01, y: 3.72}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!70 &315288418
@@ -1643,8 +1666,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.14866169, y: -0.19822359}
-  m_Size: {x: 1.4212458, y: 3.3235552}
+  m_Offset: {x: -0.07280924, y: 0.124831825}
+  m_Size: {x: 2.8651683, y: 3.9696696}
   m_Direction: 0
 --- !u!114 &315288419
 MonoBehaviour:
@@ -1659,7 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ToxicShroomBehavior
   mushroomRenderer: {fileID: 315288417}
-  normalSprite: {fileID: 3330850549432674594, guid: ac9411da44a0bdb42ae88bf347ab87eb, type: 3}
+  normalSprite: {fileID: 21300000, guid: 2db9b86cd705b3044a60bd322fcf5860, type: 3}
   activatedSprite: {fileID: 21300000, guid: 99325aee81c74754fa8cf608d7d6ab32, type: 3}
   toxicEffect: {fileID: 1566487469}
   toxicAnimator: {fileID: 1566487471}
@@ -2766,7 +2789,7 @@ Transform:
   m_GameObject: {fileID: 605262389}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.9, y: 2.1, z: -10}
+  m_LocalPosition: {x: -52.424183, y: 5.0078983, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6683,56 +6706,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 2147483649
-  - first: {x: -105, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: -104, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: -103, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: -102, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: -101, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
   - first: {x: -100, y: 2, z: 0}
     second:
       serializedVersion: 2
@@ -7163,6 +7136,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 2147483649
+  - first: {x: -48, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 4294967295
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 75, y: 7, z: 0}
     second:
       serializedVersion: 2
@@ -7183,6 +7166,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 2147483649
+  - first: {x: -45, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 4294967295
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 75, y: 8, z: 0}
     second:
       serializedVersion: 2
@@ -8429,18 +8422,18 @@ Tilemap:
     m_RefCount: 500
     m_Data: {fileID: 11400000, guid: 469418c45cf17e64897553ae7dcf669e, type: 2}
   - serializedVersion: 2
-    m_RefCount: 5
-    m_Data: {fileID: 11400000, guid: b2afbefdd90463a4e94d5e93654c4287, type: 2}
+    m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 22ec7877564d9014e9882166fca17432, type: 2}
   m_TileSpriteArray:
   - serializedVersion: 2
     m_RefCount: 500
     m_Data: {fileID: 21300000, guid: 472f21521df85d940957d001a636a4de, type: 3}
   - serializedVersion: 2
-    m_RefCount: 5
+    m_RefCount: 0
     m_Data: {fileID: 21300000, guid: 2cf9645d87113e14bacdb6efb6ff70d8, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 505
+    m_RefCount: 502
     m_Data:
       e00: 1
       e01: 0
@@ -8463,7 +8456,7 @@ Tilemap:
     m_RefCount: 500
     m_Data: {r: 0, g: 0, b: 0, a: 1}
   - serializedVersion: 2
-    m_RefCount: 5
+    m_RefCount: 2
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -8904,11 +8897,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.75843
+      value: -97.28261
       objectReference: {fileID: 0}
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.08938
+      value: 7.997278
       objectReference: {fileID: 0}
     - target: {fileID: 1463157497554813972, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_Name
