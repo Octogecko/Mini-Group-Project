@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: 6380540559051390497
     second: Background transition village forest house_0
-  - first:
-      213: -4383322281029072104
-    second: Background transition village forest house_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,7 +119,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 3508
-        height: 2055
+        height: 2480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,28 +130,6 @@ TextureImporter:
       bones: []
       spriteID: 12efa3935db3c8850800000000000000
       internalID: 6380540559051390497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background transition village forest house_1
-      rect:
-        serializedVersion: 2
-        x: 2833
-        y: 1367
-        width: 675
-        height: 1113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81b0537fb9f4b23c0800000000000000
-      internalID: -4383322281029072104
       vertices: []
       indices: 
       edges: []
@@ -174,7 +149,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Background transition village forest house_0: 6380540559051390497
-      Background transition village forest house_1: -4383322281029072104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
