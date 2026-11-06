@@ -22,12 +22,12 @@ public class TransitionCastle : MonoBehaviour
             if (passage)
             {
                 passage = false;
-                GameObject.FindGameObjectWithTag("chateau").GetComponent<SpriteRenderer>().material.color = new Color(1f, 1f, 1f, 1f);
+                GameObject.FindGameObjectWithTag("chateau").GetComponent<Animator>().SetTrigger("vanish");
             }
             else
             {
                 passage = true;
-                GameObject.FindGameObjectWithTag("chateau").GetComponent<SpriteRenderer>().material.color = new Color(1f, 1f, 1f, 0.2f);
+                GameObject.FindGameObjectWithTag("chateau").GetComponent<Animator>().SetTrigger("vanish");
             }
         }
     }
