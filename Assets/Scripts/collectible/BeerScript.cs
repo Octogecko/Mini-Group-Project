@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class BeerScript : MonoBehaviour
 {
+    public GameObject player;
    
     void Start()
     {
-        
+       
     }
 
     void Update()
@@ -15,9 +16,10 @@ public class BeerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject == player)
         {
-
+            GetComponent<SpriteRenderer>().enabled = false;
+            player.GetComponent<Animator>().SetTrigger("BeerTake");
         }
     }
 }
