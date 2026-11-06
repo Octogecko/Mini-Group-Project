@@ -41,15 +41,19 @@ public class PlayerLife : MonoBehaviour
             GetComponent<Animator>().SetBool("ded", true);
             StartCoroutine(GameOverSequence());
         }
-        else if (collision.gameObject.CompareTag("Void"))
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Void"))
         {
             isGameover = true;
             GetComponent<Animator>().SetBool("hurt", true);
+            StartCoroutine(GameOverSequence());
         }
     }
     private IEnumerator GameOverSequence()
     {
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
