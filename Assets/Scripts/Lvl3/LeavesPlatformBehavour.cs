@@ -4,9 +4,9 @@ public class LeavesPlatformBehavour : MonoBehaviour
 {
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.GetComponent<PlayerMovement>())
+        if(collision.gameObject.GetComponent<PlayerMovement>())
         {
             GetComponents<BoxCollider2D>()[0].enabled = false;
             GetComponents<BoxCollider2D>()[1].enabled = false;
