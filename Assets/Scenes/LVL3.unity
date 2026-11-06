@@ -14486,11 +14486,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.16843
+      value: -30.174429
       objectReference: {fileID: 0}
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.75938
+      value: 5.8073797
       objectReference: {fileID: 0}
     - target: {fileID: 1463157497554813972, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_Name
@@ -16193,6 +16193,7 @@ GameObject:
   - component: {fileID: 1243312695}
   - component: {fileID: 1243312694}
   - component: {fileID: 1243312693}
+  - component: {fileID: 1243312697}
   m_Layer: 0
   m_Name: SpikesTrap_0
   m_TagString: Untagged
@@ -16359,6 +16360,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1243312697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243312691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444343eb85caabc418c7ba2102b0d20f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spikes
+  knockbackForce: 8
+  upwardForce: 4
+  damage: 1
 --- !u!1 &1249051912
 GameObject:
   m_ObjectHideFlags: 0
@@ -43903,7 +43919,7 @@ MonoBehaviour:
   pointL: {fileID: 155398724}
   pointR: {fileID: 2076079961}
   knockbackForce: 8
-  upwardForce: 4
+  upwardForce: 8
   speed: 2
   damage: 1
 --- !u!95 &1809666194
