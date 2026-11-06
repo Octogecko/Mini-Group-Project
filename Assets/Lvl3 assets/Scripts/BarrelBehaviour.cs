@@ -7,6 +7,7 @@ public class BarrelBehaviour : MonoBehaviour
     public Collider2D barrelCollider;
     public SpriteRenderer barrelRenderer;
     public Rigidbody2D barrelRb;
+    public float barrelStrenghSpeed;
 
     [Header("Explosion")]
     public GameObject explosion;
@@ -24,7 +25,7 @@ public class BarrelBehaviour : MonoBehaviour
     void Start()
     {
         originalPosition = transform.position;
-
+        barrelRb.linearVelocity = new Vector2(0f, -barrelStrenghSpeed);
         explosion.SetActive(false);
     }
 
@@ -70,8 +71,8 @@ public class BarrelBehaviour : MonoBehaviour
         transform.position = originalPosition;
 
         barrelRb.bodyType = RigidbodyType2D.Dynamic;
-        barrelRb.linearVelocity = Vector2.zero;
-        barrelRb.angularVelocity = 0f;
+        barrelRb.linearVelocity = new Vector2(0f, -barrelStrenghSpeed);
+        barrelRb.angularVelocity = 1f;
 
         barrelRenderer.enabled = true;
         barrelCollider.enabled = true;
