@@ -144,11 +144,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2462
-        width: 13
-        height: 18
+        y: 0
+        width: 7016
+        height: 2480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,209 +161,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 2462
-        width: 20
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb5619b52fb4435d0800000000000000
-      internalID: -3083756340551522881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_2
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 2465
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ba4622e414095b50800000000000000
-      internalID: 6582296818118707894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_3
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 2465
-        width: 18
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 386d7519545c53220800000000000000
-      internalID: 2465093273637082755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_4
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 2474
-        width: 18
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b74f162ca18c483f0800000000000000
-      internalID: -899374008311352197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_5
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 2469
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52a1ac3bc58b58650800000000000000
-      internalID: 6234591967457188389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_6
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 2472
-        width: 56
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83643937c0d3d2fd0800000000000000
-      internalID: -2365167105611708872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_7
-      rect:
-        serializedVersion: 2
-        x: 7007
-        y: 2473
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50b3ba6e9fd61a350800000000000000
-      internalID: 6026218696482700037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 7016
-        height: 1659
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 721ec3b71b1005e00800000000000000
-      internalID: 1031326176456270119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background forest mountain_9
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 1647
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 148c45bb29361ce70800000000000000
-      internalID: 9133691001143347265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2e87275b4c5c201469b029292c325a27
     internalID: 0
     vertices: []
     indices: 
@@ -371,18 +173,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":7016.0,"y":2480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Background forest mountain_0: 7856980845430505071
-      Background forest mountain_1: -3083756340551522881
-      Background forest mountain_2: 6582296818118707894
-      Background forest mountain_3: 2465093273637082755
-      Background forest mountain_4: -899374008311352197
-      Background forest mountain_5: 6234591967457188389
-      Background forest mountain_6: -2365167105611708872
-      Background forest mountain_7: 6026218696482700037
-      Background forest mountain_8: 1031326176456270119
-      Background forest mountain_9: 9133691001143347265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
