@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class TransitionCastle : MonoBehaviour
 {
-    public bool passage = false;
+    [Header("CastleDoor")]
+    public Collider2D doorEnter;
+    public Collider2D doorExit;
+    public GameObject castle;
+    bool hesInside = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,18 +21,10 @@ public class TransitionCastle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && hesInside == false)
         {
-            if (passage)
-            {
-                passage = false;
-                GameObject.FindGameObjectWithTag("chateau").GetComponent<Animator>().SetTrigger("vanish");
-            }
-            else
-            {
-                passage = true;
-                GameObject.FindGameObjectWithTag("chateau").GetComponent<Animator>().SetTrigger("vanish");
-            }
+            castle.SetActive(false);
+            hesInside = true;
         }
     }
 }
