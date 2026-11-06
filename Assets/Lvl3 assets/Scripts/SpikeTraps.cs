@@ -7,6 +7,7 @@ public class SpikeTraps : MonoBehaviour
     [Header("KnockBack")]
     public float knockbackForce = 8f;
     public float upwardForce = 4f;
+    [SerializeField] private int damage = 1;
     public void SpikesOut()
     {
         spikeCollider.enabled = true;
@@ -20,6 +21,7 @@ public class SpikeTraps : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
             Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
 
             if (playerRb != null)

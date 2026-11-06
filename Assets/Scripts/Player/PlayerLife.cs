@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEditor.Rendering.Universal.ShaderGUI;
 using UnityEngine;
@@ -8,8 +10,8 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private int maxLife = 3;
     public float invincibilityDuration = 1.0f;
     public float flashInterval = 0.1f;
-    private bool isInvincible = false;
     private int _life;
+    bool isGameover = false;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
     void Start()
@@ -20,7 +22,10 @@ public class PlayerLife : MonoBehaviour
     }
     void Update()
     {
-
+        if (isGameover == true)
+        {
+            GetComponent<PlayerMovement>().enabled = false;
+        }
     }
 
 
@@ -30,20 +35,35 @@ public class PlayerLife : MonoBehaviour
         {
             if (_life <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                isGameover = true;
+                GetComponent<Animator>().SetBool("ded", true);
+                StartCoroutine(GameOverSequence());
             }
             else
             {
-
+                GetComponent<Animator>().SetBool("hurt", true);
             }
         }
+        if (isGameover == true)
+        {
+            StartCoroutine(GameOverSequence());
+        }
     }
-    
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        GetComponent<Animator>().SetBool("hurt",false);
+    }
+    private IEnumerator GameOverSequence()
+    {
+        yield return new WaitForSeconds(4.0f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GetComponent<Animator>().SetBool("ded", false);
+    }
+
 
     public void Hurt(int damage)
     {
         _life -= damage;
-        rb.AddForce(new Vector2(5, 0), ForceMode2D.Impulse);
     }
 
 

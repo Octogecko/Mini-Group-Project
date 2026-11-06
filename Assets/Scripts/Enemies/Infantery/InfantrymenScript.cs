@@ -13,17 +13,17 @@ public class InfantrymenScript : MonoBehaviour
     {
         if (PlayerIsHigher(player.transform, gameObject.transform))
         {
-            Debug.Log(player + " is higher " + gameObject);
+            GetComponent<Animator>().SetBool("shield", true);
         }
 
         else
         {
-            Debug.Log("No worries.");
+            GetComponent<Animator>().SetBool("shield",false);
         }
     }
 
     bool PlayerIsHigher(Transform player, Transform infantryman)
     {
-        return player.position.y > infantryman.position.y;
+        return player.position.y > infantryman.position.y && player.position.x == infantryman.position.x;
     }
 }
