@@ -948,6 +948,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4340902716830463279, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340902716830463279, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5608200946557452696, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_Color.a
       value: 0
@@ -980,6 +988,14 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6154865508875350029, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154865508875350029, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6362849372662770593, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1001,8 +1017,16 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6741237532527475554, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6741237532527475554, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6741237532527475554, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 6911552465808157549, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_Color.a
@@ -1017,8 +1041,16 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7353311346723044811, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 230.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353311346723044811, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 53.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353311346723044811, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 7673724438259566799, guid: 5aa49a0c00f1ce442a9cac6634c64fe6, type: 3}
       propertyPath: m_text
