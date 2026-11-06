@@ -5,33 +5,6 @@ TextureImporter:
   - first:
       213: 7856980845430505071
     second: Background forest mountain_0
-  - first:
-      213: -3083756340551522881
-    second: Background forest mountain_1
-  - first:
-      213: 6582296818118707894
-    second: Background forest mountain_2
-  - first:
-      213: 2465093273637082755
-    second: Background forest mountain_3
-  - first:
-      213: -899374008311352197
-    second: Background forest mountain_4
-  - first:
-      213: 6234591967457188389
-    second: Background forest mountain_5
-  - first:
-      213: -2365167105611708872
-    second: Background forest mountain_6
-  - first:
-      213: 6026218696482700037
-    second: Background forest mountain_7
-  - first:
-      213: 1031326176456270119
-    second: Background forest mountain_8
-  - first:
-      213: 9133691001143347265
-    second: Background forest mountain_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,7 +121,7 @@ TextureImporter:
         width: 7016
         height: 2480
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2e87275b4c5c201469b029292c325a27
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,9 +146,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":7016.0,"y":2480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
       Background forest mountain_0: 7856980845430505071
   mipmapLimitGroupName: 
