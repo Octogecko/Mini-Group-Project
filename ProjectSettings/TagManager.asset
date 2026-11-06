@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - enemy
-  - Axe
+  - chateau
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -33,7 +33,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - BarrelCancel
   - 
   - 
   - 
@@ -42,6 +42,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sky layer
+    uniqueID: 2369380699
+    locked: 0
+  - name: mountain layer
+    uniqueID: 431327005
+    locked: 0
+  - name: tree layer
+    uniqueID: 733462901
+    locked: 0
+  - name: player
+    uniqueID: 2025339871
     locked: 0
   m_RenderingLayers:
   - Default

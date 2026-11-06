@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 36c138804bdcbef46bf6b6de5b522581
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2660512247071391919
+    second: infantryman_sheild_0
+  - first:
+      213: 8411464871697031452
+    second: infantryman_sheild_1
+  - first:
+      213: 1278406461307747041
+    second: infantryman_sheild_2
+  - first:
+      213: -1639666923645220224
+    second: infantryman_sheild_3
+  - first:
+      213: -8415653094152319581
+    second: infantryman_sheild_4
+  - first:
+      213: 255149568632343198
+    second: infantryman_sheild_5
+  - first:
+      213: 7591835979077301596
+    second: infantryman_sheild_6
+  - first:
+      213: -4128809417692245467
+    second: infantryman_sheild_7
+  - first:
+      213: -2621320966132646393
+    second: infantryman_sheild_8
+  - first:
+      213: 3294068756152405758
+    second: infantryman_sheild_9
+  - first:
+      213: -3180407644677478405
+    second: infantryman_sheild_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: infantryman_sheild_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1046
+        width: 415
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fbbb01536f31bd0800000000000000
+      internalID: -2660512247071391919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_1
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1053
+        width: 431
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11ad262cb68bb470800000000000000
+      internalID: 8411464871697031452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1055
+        width: 431
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaffcc37efcdb110800000000000000
+      internalID: 1278406461307747041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_3
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1041
+        width: 432
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4b2ace9bbe39e0800000000000000
+      internalID: -1639666923645220224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 582
+        width: 423
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad42225918953b80800000000000000
+      internalID: -8415653094152319581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 582
+        width: 420
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9accea4e297a8300800000000000000
+      internalID: 255149568632343198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_6
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 580
+        width: 420
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55bee5899e9b5960800000000000000
+      internalID: 7591835979077301596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 582
+        width: 420
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5229a21c5b583b6c0800000000000000
+      internalID: -4128809417692245467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 94
+        width: 420
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e316b38723f9bd0800000000000000
+      internalID: -2621320966132646393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 93
+        width: 420
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe4d2cb412e6bd20800000000000000
+      internalID: 3294068756152405758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: infantryman_sheild_10
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 99
+        width: 415
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ef02091cecd3d0800000000000000
+      internalID: -3180407644677478405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      infantryman_sheild_0: -2660512247071391919
+      infantryman_sheild_1: 8411464871697031452
+      infantryman_sheild_10: -3180407644677478405
+      infantryman_sheild_2: 1278406461307747041
+      infantryman_sheild_3: -1639666923645220224
+      infantryman_sheild_4: -8415653094152319581
+      infantryman_sheild_5: 255149568632343198
+      infantryman_sheild_6: 7591835979077301596
+      infantryman_sheild_7: -4128809417692245467
+      infantryman_sheild_8: -2621320966132646393
+      infantryman_sheild_9: 3294068756152405758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

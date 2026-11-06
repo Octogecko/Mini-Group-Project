@@ -36,17 +36,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "4cacda3b-500a-4a0a-8ec8-5b7168958552",
-                    "path": "<Gamepad>/leftStick/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Keyboard",
                     "id": "663c84e5-685a-47d2-8379-a608e28a9541",
                     "path": "1DAxis",
@@ -107,6 +96,39 @@
                     "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "b5891822-d08d-4c17-a9a6-87d13b9c0629",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "d144f9cd-130e-4f44-a7c7-c9908dbe5862",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.4)",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "93c8d7f6-b37a-4044-90d4-8ea37ecf0d5a",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.4)",
                     "groups": "",
                     "action": "Movement",
                     "isComposite": false,

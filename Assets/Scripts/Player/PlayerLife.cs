@@ -1,16 +1,76 @@
+using System.Collections;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
+using UnityEditor.Rendering.Universal.ShaderGUI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private int maxLife = 3;
+    public float invincibilityDuration = 1.0f;
+    public float flashInterval = 0.1f;
+    private int _life;
+    bool isGameover = false;
+    private Rigidbody2D rb;
+    public ForceMode forceMode = ForceMode.Impulse;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        _life = maxLife;
+        Scene currentScene = SceneManager.GetActiveScene();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        if (isGameover == true)
+        {
+            GetComponent<PlayerMovement>().enabled = false;
+        }
     }
-}
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            if (_life <= 0)
+            {
+                isGameover = true;
+                GetComponent<Animator>().SetBool("ded", true);
+                StartCoroutine(GameOverSequence());
+            }
+            else
+            {
+                GetComponent<Animator>().SetBool("hurt", true);
+            }
+        }
+        if (isGameover == true)
+        {
+            StartCoroutine(GameOverSequence());
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        GetComponent<Animator>().SetBool("hurt",false);
+    }
+    private IEnumerator GameOverSequence()
+    {
+        yield return new WaitForSeconds(4.0f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GetComponent<Animator>().SetBool("ded", false);
+    }
+
+
+    public void Hurt(int damage)
+    {
+        _life -= damage;
+    }
+
+
+        //UpdateUI();
+    }
+    // Need to setup that when the Ui is ready
+    //private void UpdateUI()
+    //{
+    //    lifeUI.fillAmount = (float)_life / maxLife;
+    //}
