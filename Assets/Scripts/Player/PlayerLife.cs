@@ -54,7 +54,7 @@ public class PlayerLife : MonoBehaviour
     }
     private IEnumerator GameOverSequence()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.0f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         GetComponent<Animator>().SetBool("ded", false);
     }

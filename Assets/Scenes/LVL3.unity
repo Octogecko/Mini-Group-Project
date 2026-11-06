@@ -1416,15 +1416,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.526
+      value: -14.511
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.191
+      value: -2.498
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7932892639068502065, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3010,7 +3010,7 @@ Transform:
   m_GameObject: {fileID: 605262389}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.526, y: 1.809, z: -10}
+  m_LocalPosition: {x: -14.511, y: 1.5020001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14262,11 +14262,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.38443
+      value: 11.999008
       objectReference: {fileID: 0}
     - target: {fileID: 1435876267552349926, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.79838
+      value: -0.9472101
       objectReference: {fileID: 0}
     - target: {fileID: 1463157497554813972, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_Name
@@ -14314,11 +14314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5866156883904877582, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: field of view
-      value: 60
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5866156883904877582, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: orthographic size
-      value: 6.4
+      value: 4.51
       objectReference: {fileID: 0}
     - target: {fileID: 7837145122999565808, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16006,6 +16006,7 @@ MonoBehaviour:
   spikeCollider: {fileID: 1243312694}
   knockbackForce: 6
   upwardForce: 10
+  damage: 1
 --- !u!61 &1243312694
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43454,6 +43455,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   pointL: {fileID: 155398724}
   pointR: {fileID: 2076079961}
+  knockbackForce: 8
+  upwardForce: 4
   speed: 2
   damage: 1
 --- !u!95 &1809666194
