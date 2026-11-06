@@ -14,12 +14,10 @@ public class PlayerLife : MonoBehaviour
     private int _life;
     bool isGameover = false;
     bool reloadScene = false;
-    private Animator _animator;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
     void Start()
     {
-        _animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         _life = maxLife;
         Scene currentScene = SceneManager.GetActiveScene();
@@ -37,24 +35,28 @@ public class PlayerLife : MonoBehaviour
             if (_life <= 0)
             {
                 isGameover = true;
-
+                GetComponent<Animator>().SetBool("ded", true);
                 StartCoroutine(GameOverSequence());
             }
             else
             {
-                _animator.SetTrigger("hurt");
+                GetComponent<Animator>().SetBool("hurt", true);
             }
         }
         if (isGameover == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             StartCoroutine(GameOverSequence());
         }
     }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        GetComponent<Animator>().SetBool("hurt",false);
+    }
     private IEnumerator GameOverSequence()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.0f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GetComponent<Animator>().SetBool("ded", false);
     }
 
 
