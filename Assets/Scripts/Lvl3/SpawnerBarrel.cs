@@ -4,10 +4,11 @@ public class SpawnerBarrel : MonoBehaviour
 {
 
     public GameObject barrelPrefab;
+    public float barrelSpawnTime;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Invoke("spawner", 4f);
+        Invoke("spawner", barrelSpawnTime);
     }
 
     // Update is called once per frame
@@ -19,7 +20,7 @@ public class SpawnerBarrel : MonoBehaviour
     public void spawner()
     {
         Instantiate(barrelPrefab, transform.position, Quaternion.identity);
-        Invoke("spawner", 4f);
+        Invoke("spawner", barrelSpawnTime);
 
     }
 }
