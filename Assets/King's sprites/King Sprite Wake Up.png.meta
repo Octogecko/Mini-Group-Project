@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 851be45b5f6fd834098645fe85d3f544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5426307356607864054
+    second: King Sprite Wake Up_0
+  - first:
+      213: -5832853867087136242
+    second: King Sprite Wake Up_1
+  - first:
+      213: 3406431794534676751
+    second: King Sprite Wake Up_2
+  - first:
+      213: 4170178132536489417
+    second: King Sprite Wake Up_3
+  - first:
+      213: -5968230817304541869
+    second: King Sprite Wake Up_4
+  - first:
+      213: -3609786505059817638
+    second: King Sprite Wake Up_5
+  - first:
+      213: -5869168570129919683
+    second: King Sprite Wake Up_6
+  - first:
+      213: 4078757218358901473
+    second: King Sprite Wake Up_7
+  - first:
+      213: -8849640838230364584
+    second: King Sprite Wake Up_8
+  - first:
+      213: 5241673887147434093
+    second: King Sprite Wake Up_9
+  - first:
+      213: 2029698507868356118
+    second: King Sprite Wake Up_10
+  - first:
+      213: 1687608586921052197
+    second: King Sprite Wake Up_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: King Sprite Wake Up_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 989
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03ac4f7532e1b4b0800000000000000
+      internalID: -5426307356607864054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_1
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 989
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0af189cf4a8d0fa0800000000000000
+      internalID: -5832853867087136242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_2
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 993
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09f5d84ba3164f20800000000000000
+      internalID: 3406431794534676751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_3
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 993
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c570ffbae27fd930800000000000000
+      internalID: 4170178132536489417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_4
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 993
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355060551b59c2da0800000000000000
+      internalID: -5968230817304541869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_5
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 993
+        width: 621
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5729e29c4677edc0800000000000000
+      internalID: -3609786505059817638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31d48a18468c8ea0800000000000000
+      internalID: -5869168570129919683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 105
+        width: 637
+        height: 753
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eab7557418aa9830800000000000000
+      internalID: 4078757218358901473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 119
+        width: 637
+        height: 746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e2d778b82cf2580800000000000000
+      internalID: -8849640838230364584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_9
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 117
+        width: 637
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d602dd7f0aa2eb840800000000000000
+      internalID: 5241673887147434093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_10
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 123
+        width: 617
+        height: 746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e32a20a00fa2c10800000000000000
+      internalID: 2029698507868356118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Wake Up_11
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 127
+        width: 637
+        height: 760
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528045781179b6710800000000000000
+      internalID: 1687608586921052197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb7f8efc1b73eb344911c9962945b9fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      King Sprite Wake Up_0: -5426307356607864054
+      King Sprite Wake Up_1: -5832853867087136242
+      King Sprite Wake Up_10: 2029698507868356118
+      King Sprite Wake Up_11: 1687608586921052197
+      King Sprite Wake Up_2: 3406431794534676751
+      King Sprite Wake Up_3: 4170178132536489417
+      King Sprite Wake Up_4: -5968230817304541869
+      King Sprite Wake Up_5: -3609786505059817638
+      King Sprite Wake Up_6: -5869168570129919683
+      King Sprite Wake Up_7: 4078757218358901473
+      King Sprite Wake Up_8: -8849640838230364584
+      King Sprite Wake Up_9: 5241673887147434093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
