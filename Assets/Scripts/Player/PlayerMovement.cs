@@ -47,6 +47,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = false;
     private float timeNotGrounded = 0f;
     private float timeSinceJumpInput = 0f;
+
+    // Things that shouldn't be here
+
+    public int coins = 0;
+
     private void Start()
     {
        leftLeg = transform.GetChild(0);
