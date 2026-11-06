@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEditor.Rendering.Universal.ShaderGUI;
 using UnityEngine;
@@ -10,10 +12,14 @@ public class PlayerLife : MonoBehaviour
     public float flashInterval = 0.1f;
     private bool isInvincible = false;
     private int _life;
+    bool isGameover = false;
+    bool reloadScene = false;
+    private Animator _animator;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
     void Start()
     {
+        _animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         _life = maxLife;
         Scene currentScene = SceneManager.GetActiveScene();
@@ -30,20 +36,35 @@ public class PlayerLife : MonoBehaviour
         {
             if (_life <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                isGameover = true;
+
+                StartCoroutine(GameOverSequence());
             }
             else
             {
-
+                _animator.SetTrigger("hurt");
             }
         }
+        if (isGameover == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(GameOverSequence());
+        }
     }
-    
+    private IEnumerator GameOverSequence()
+    {
+        yield return new WaitForSeconds(5.0f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 
     public void Hurt(int damage)
     {
         _life -= damage;
-        rb.AddForce(new Vector2(5, 0), ForceMode2D.Impulse);
+        if (_life > 0)
+        {
+        rb.AddForce(new Vector2(-5, 0), ForceMode2D.Impulse);
+        }
     }
 
 

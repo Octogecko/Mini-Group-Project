@@ -1278,6 +1278,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: ff9b3ccd-12d2-4fb6-80c0-779bdfc47a4d
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661190707842559111, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: 'Gameplay/HammerSkill[/Keyboard/e]'
+      objectReference: {fileID: 0}
     - target: {fileID: 4507241657475928904, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1341,6 +1353,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1748207508}
+    - targetCorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1748207509}
   m_SourcePrefab: {fileID: 100100000, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
 --- !u!1 &216672910
 GameObject:
@@ -42870,6 +42885,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf1a5b2ca5aa154882edcb82463b27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HammerSkill
+--- !u!114 &1748207509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748207501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617b4dda62e446f4e91f9b3e09ee1513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLife
+  maxLife: 3
+  invincibilityDuration: 1
+  flashInterval: 0.1
+  forceMode: 1
 --- !u!1 &1764157144
 GameObject:
   m_ObjectHideFlags: 0
