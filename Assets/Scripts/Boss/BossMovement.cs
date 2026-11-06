@@ -1,5 +1,7 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Runtime.CompilerServices;
 
 public class BossMovement : MonoBehaviour
 {
@@ -22,33 +24,41 @@ public class BossMovement : MonoBehaviour
         if (distance < BossRange)
         {
             GetComponent<Animator>().SetTrigger("WakeUp");
-            animEnded = true;
-            if (animEnded)
-            {
-                GetComponent<Animator>().SetBool("Walk", true);
-                Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
-                transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-                if (distance < 0.3f)
-                {
-                    animEnded = false;
-                    GetComponent<Animator>().SetTrigger("Attack");
-                    GetComponent<Animator>().SetBool("Walk", false);
-                }
-            }
+            StartCoroutine(AnimationEnded());
+            GetComponent<Animator>().SetBool("Walk", true);
         }
         else if (distance > BossRange)
         {
             GetComponent<Animator>().SetBool("Walk", false);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Axe"))
         {
             transform.position = new Vector3(transform.position.x, transform.position.y);
             GetComponent<Animator>().SetTrigger("Death");
-
+            StartCoroutine(AnimationEnded2());            
         }
+    }
+    private IEnumerator AnimationEnded()
+    {
+        yield return new WaitForSeconds(2.3f);
+        Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        if (distance < 0.3f)
+        {
+            animEnded = false;
+            GetComponent<Animator>().SetTrigger("Attack");
+            GetComponent<Animator>().SetBool("Walk", false);
+        }
+    }
+
+    private IEnumerator AnimationEnded2()
+    {
+        yield return new WaitForSeconds(1.5f);
+        gameObject.SetActive(false);
     }
 
     //public void OnDrawGizmos()
