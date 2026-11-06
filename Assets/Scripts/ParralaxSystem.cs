@@ -22,9 +22,9 @@ public class ParralaxSystem : MonoBehaviour
         {
             GMForegroudlayer.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
 
-            GMFirstBackground.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
+            GMFirstBackground.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghFirstBackground * Time.deltaTime), 0, 0);
 
-            GMSky.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghForegroudlayer * Time.deltaTime), 0, 0);
+            GMSky.transform.position += new Vector3((Cam.transform.position.x - CamPos.x) * (StenghSky * Time.deltaTime), 0, 0);
 
 
             CamPos = Cam.transform.position;
