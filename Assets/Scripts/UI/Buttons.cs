@@ -5,16 +5,24 @@ using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
     public bool paused = false;
+
+    public GameObject panel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        panel.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (panel.activeSelf)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                panel.SetActive(false);
+            }
+        }
     }
 
     public void NextScene()
@@ -54,5 +62,10 @@ public class Buttons : MonoBehaviour
     public void GameOver()
     {
         Invoke("Main", 3f);
+    }
+
+    public void Controls()
+    {
+        panel.SetActive(true);
     }
 }
