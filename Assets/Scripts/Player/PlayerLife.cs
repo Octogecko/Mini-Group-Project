@@ -61,10 +61,6 @@ public class PlayerLife : MonoBehaviour
     public void Hurt(int damage)
     {
         _life -= damage;
-        if (_life > 0)
-        {
-        rb.AddForce(new Vector2(-5, 0), ForceMode2D.Impulse);
-        }
     }
 
 
