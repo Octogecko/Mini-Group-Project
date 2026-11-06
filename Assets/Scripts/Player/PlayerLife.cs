@@ -19,13 +19,12 @@ public class PlayerLife : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _life = maxLife;
         Scene currentScene = SceneManager.GetActiveScene();
-        GameObject movement = GameObject.Find("OnMovement");
     }
     void Update()
     {
         if (isGameover == true)
         {
-
+            GetComponent<PlayerMovement>().enabled = false;
         }
     }
 
