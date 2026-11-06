@@ -52,17 +52,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
             Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
-
             if (playerRb != null)
             {
                 Vector2 direction = (collision.transform.position - transform.position).normalized;
-
                 direction.y = Mathf.Max(direction.y, 0.3f);
-
-                playerRb.AddForce(
-                    new Vector2(direction.x * knockbackForce, upwardForce),
-                    ForceMode2D.Impulse
-                );
+                playerRb.AddForce(new Vector2(direction.x * knockbackForce, upwardForce),ForceMode2D.Impulse);
             }
         }
     }
