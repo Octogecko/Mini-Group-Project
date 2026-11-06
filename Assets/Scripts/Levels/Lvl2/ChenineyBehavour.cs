@@ -13,7 +13,9 @@ public class ChenineyBehavour : MonoBehaviour
             {
                 i.enabled = false;
             }
-            
+            GetComponents<BoxCollider2D>()[3].enabled = true;
+
+
         }
     }
 
