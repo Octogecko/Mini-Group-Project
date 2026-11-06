@@ -10,10 +10,8 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private int maxLife = 3;
     public float invincibilityDuration = 1.0f;
     public float flashInterval = 0.1f;
-    private bool isInvincible = false;
     private int _life;
     bool isGameover = false;
-    bool reloadScene = false;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
     void Start()
@@ -24,7 +22,10 @@ public class PlayerLife : MonoBehaviour
     }
     void Update()
     {
-
+        if (isGameover == true)
+        {
+            GetComponent<PlayerMovement>().enabled = false;
+        }
     }
 
 
