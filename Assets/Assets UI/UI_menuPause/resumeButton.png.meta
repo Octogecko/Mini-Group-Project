@@ -131,12 +131,12 @@ TextureImporter:
       name: resumeButton_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 22
-        width: 41
-        height: 54
+        x: 0
+        y: 0
+        width: 398
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,121 +149,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: resumeButton_1
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 19
-        width: 38
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a9c8821bef4cab0800000000000000
-      internalID: -4988582450376697299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: resumeButton_2
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 16
-        width: 41
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5fc930d7ad0d375d0800000000000000
-      internalID: -3065877284490339083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: resumeButton_3
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 16
-        width: 43
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5ce63e3efaec6e30800000000000000
-      internalID: 4498228505522662492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: resumeButton_4
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 17
-        width: 64
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f541dfef0785e1ab0800000000000000
-      internalID: -5035490091016055713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: resumeButton_5
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 16
-        width: 35
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dfa83709f7ed35d0800000000000000
-      internalID: -3081051513297522728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9ec330adee56e3d499fc4863f26daf42
     internalID: 0
     vertices: []
     indices: 
@@ -271,14 +161,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":398.0,"y":88.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       resumeButton_0: -9190759873615038455
-      resumeButton_1: -4988582450376697299
-      resumeButton_2: -3065877284490339083
-      resumeButton_3: 4498228505522662492
-      resumeButton_4: -5035490091016055713
-      resumeButton_5: -3081051513297522728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
