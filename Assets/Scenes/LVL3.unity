@@ -191,6 +191,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1748207508}
   m_SourcePrefab: {fileID: 100100000, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+--- !u!4 &456123446 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3384783945327647585, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
+  m_PrefabInstance: {fileID: 1414939801630656353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &526001581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -535,6 +540,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+--- !u!1001 &1706933189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 456123446}
+    m_Modifications:
+    - target: {fileID: 2920258987084943243, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_Name
+      value: Traps
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.307846
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6882801
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+--- !u!4 &1706933190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8531160063937664171, guid: 79f6caf74a3d71e4b8baf037240115b5, type: 3}
+  m_PrefabInstance: {fileID: 1706933189}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1748207501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
@@ -716,8 +783,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7479140875461016227, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3384783945327647585, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
+      insertIndex: 8
+      addedObject: {fileID: 1706933190}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
 --- !u!1660057539 &9223372036854775807
