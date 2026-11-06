@@ -106,7 +106,6 @@
         public void OnMovement(InputAction.CallbackContext context)
         {
             float input = context.ReadValue<float>();
-            Debug.Log(Mathf.Abs(input) < 0.4f ? $"DEADZONE {input}" : "GOOOOOOOOO");
             if (context.started)
             {
                 accelerating = true;
