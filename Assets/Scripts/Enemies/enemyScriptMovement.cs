@@ -8,7 +8,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public GameObject pointR;
     private Transform currentPoint;
     private Rigidbody2D rb;
-    public float speed = 2f;    
+    public float speed = 2f;
+    [SerializeField] private int damage = 1;
+
 
     void Start()
     {
@@ -41,6 +43,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
             }
 
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
+        }
+    }
+
 
     private void OnDrawGizmos()
     {
