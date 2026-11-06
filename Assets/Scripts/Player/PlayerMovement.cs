@@ -21,9 +21,11 @@
 
     // References
 
-    private Rigidbody2D rigidBody;
+        private Rigidbody2D rigidBody;
         private Animator animator;
         private SpriteRenderer spriteRenderer;
+        private Transform leftLeg;
+        private Transform rightLeg;
 
         // Movement
 
@@ -46,6 +48,8 @@
 
         private void Start()
         {
+            leftLeg = transform.GetChild(0);
+            rightLeg = transform.GetChild(1);
             rigidBody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -102,7 +106,7 @@
         public void OnMovement(InputAction.CallbackContext context)
         {
             float input = context.ReadValue<float>();
-
+            Debug.Log(Mathf.Abs(input) < 0.4f ? $"DEADZONE {input}" : "GOOOOOOOOO");
             if (context.started)
             {
                 accelerating = true;
@@ -153,8 +157,8 @@
             else if (context.canceled)
             {
                 running = false;
+                if (!decelerating) decelerateTargetSpeed = maxSpeed;
                 decelerating = true;
-                decelerateTargetSpeed = maxSpeed;
             }
         }
 
@@ -196,8 +200,8 @@
 
         private void CheckGround()
         {
-            RaycastHit2D left = Physics2D.Raycast(new Vector3(transform.position.x - 0.4f, transform.position.y), Vector2.down, 0.6f, groundLayers);
-            RaycastHit2D right = Physics2D.Raycast(new Vector3(transform.position.x + 0.4f, transform.position.y), Vector2.down, 0.6f, groundLayers);
+            RaycastHit2D left = Physics2D.Raycast(leftLeg.position, Vector2.down, 0.1f, groundLayers);
+            RaycastHit2D right = Physics2D.Raycast(rightLeg.position, Vector2.down, 0.1f, groundLayers);
             if (left || right)
             {
                 isGrounded = true;
@@ -217,4 +221,11 @@
             isJumping = false;
             rigidBody.gravityScale = downGravity;
         }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawLine(leftLeg.position, new Vector3(leftLeg.position.x, leftLeg.position.y - 0.1f));
+        Gizmos.DrawLine(rightLeg.position, new Vector3(rightLeg.position.x, rightLeg.position.y - 0.1f));
+        //Gizmos.DrawLine(new Vector3(transform.position.x + 0.4f, transform.position.y), new Vector3(transform.position.x + 0.4f, transform.position.y - 0.6f));
     }
+}
