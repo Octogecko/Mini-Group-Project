@@ -9,7 +9,7 @@ public class BossMovement : MonoBehaviour
     private float distance;
     public float speed = 5f;
     public float BossRange = 10.0f;
-    private bool animEnded = false;
+    private bool wokenUp = false;
     
 
     void Start()
@@ -21,11 +21,17 @@ public class BossMovement : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.localPosition, player.transform.position);
-        if (distance < BossRange)
+        if (distance < BossRange || wokenUp == true)
         {
-            GetComponent<Animator>().SetTrigger("WakeUp");
+            wokenUp = true;
+            GetComponent<Animator>().SetBool("WakeUp", true);
             StartCoroutine(AnimationEnded());
             GetComponent<Animator>().SetBool("Walk", true);
+            if (distance < 0.3f)
+            {                
+                GetComponent<Animator>().SetBool("Attack", true);
+                GetComponent<Animator>().SetBool("Walk", false);
+            }
         }
         else if (distance > BossRange)
         {
@@ -38,7 +44,7 @@ public class BossMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Axe"))
         {
             transform.position = new Vector3(transform.position.x, transform.position.y);
-            GetComponent<Animator>().SetTrigger("Death");
+            GetComponent<Animator>().SetBool("Death", true);
             StartCoroutine(AnimationEnded2());            
         }
     }
@@ -47,17 +53,15 @@ public class BossMovement : MonoBehaviour
         yield return new WaitForSeconds(2.3f);
         Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-        if (distance < 0.3f)
+        if (transform.position.x < player.transform.position.x)
         {
-            animEnded = false;
-            GetComponent<Animator>().SetTrigger("Attack");
-            GetComponent<Animator>().SetBool("Walk", false);
+            GetComponent<SpriteRenderer>().flipX = true;
         }
     }
 
     private IEnumerator AnimationEnded2()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
     }
 
