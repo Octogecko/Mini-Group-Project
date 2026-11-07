@@ -8,6 +8,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public GameObject pointR;
     private Transform currentPoint;
     private Rigidbody2D rb;
+    [Header("KnockBack")]
+    public float knockbackForce = 8f;
+    public float upwardForce = 4f;
     public float speed = 2f;
     [SerializeField] private int damage = 1;
 
@@ -48,6 +51,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
+            Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+            if (playerRb != null)
+            {
+                Vector2 direction = (collision.transform.position - transform.position).normalized;
+                direction.y = Mathf.Max(direction.y, 0.3f);
+                playerRb.AddForce(new Vector2(direction.x * knockbackForce, upwardForce),ForceMode2D.Impulse);
+            }
         }
     }
 

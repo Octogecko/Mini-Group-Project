@@ -6,6 +6,7 @@ TagManager:
   tags:
   - chateau
   - Enemy
+  - Void
   layers:
   - Default
   - TransparentFX
