@@ -19,18 +19,23 @@ public class TransitionCastle : MonoBehaviour
         Debug.Log("Player entered trigger: " + gameObject.name);
         Debug.Log("IsInside: " + IsInside);
         Debug.Log("IsEntrance: " + isEntrance);
-
+        if (!isEntrance && IsInside)
+        {
+            IsInside = false;
+            Debug.Log("Exited castle!");
+        }
         if (isEntrance && !IsInside)
         {
-            castleAnimator.SetTrigger("CastleIn");
             IsInside = true;
             Debug.Log("Entered castle!");
         }
-        else if (!isEntrance && IsInside)
+        if (IsInside == true)
         {
-            castleAnimator.SetTrigger("CastleOut");
-            IsInside = false;
-            Debug.Log("Exited castle!");
+            castleAnimator.SetBool("IsInside", true);
+        }
+        if (IsInside == false)
+        {
+            castleAnimator.SetBool("IsInside", false);
         }
     }
 }
