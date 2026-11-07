@@ -2,24 +2,14 @@ using UnityEngine;
 
 public class BeerScript : MonoBehaviour
 {
-    public GameObject player;
-   
-    void Start()
-    {
-       
-    }
-
-    void Update()
-    {
-        
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == player)
+        if (collision.GetComponent<PlayerMovement>())
         {
             GetComponent<SpriteRenderer>().enabled = false;
-            player.GetComponent<Animator>().SetTrigger("BeerTake");
+            collision.GetComponent<Animator>().SetTrigger("BeerTake");
         }
     }
 }
