@@ -62,12 +62,5 @@ public class PlayerLife : MonoBehaviour
     {
         _life -= damage;
     }
+}
 
-
-        //UpdateUI();
-    }
-    // Need to setup that when the Ui is ready
-    //private void UpdateUI()
-    //{
-    //    lifeUI.fillAmount = (float)_life / maxLife;
-    //}
