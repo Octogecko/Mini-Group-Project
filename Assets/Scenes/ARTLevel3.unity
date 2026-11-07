@@ -124,6 +124,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3769624422731252553, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
   m_PrefabInstance: {fileID: 1315839810}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &295536601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1171106632247787724, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+  m_PrefabInstance: {fileID: 1315839810}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295536600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618d01676173f1043966c7314350fd4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
 --- !u!1001 &1083681178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,6 +204,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1171106632247787724, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+      propertyPath: yLocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171106632247787724, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+      propertyPath: yOffset
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1463157497554813972, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
       propertyPath: m_Name
       value: CameraSystem
@@ -237,6 +256,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5866156883904877582, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+      propertyPath: orthographic size
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540549357629415810, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+      propertyPath: Lens.OrthographicSize
+      value: 7.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -250,6 +277,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2441984743005496624, guid: 02c92e2c1d7bf284799c8835bd784c3f, type: 3}
+      propertyPath: yOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441984743005496624, guid: 02c92e2c1d7bf284799c8835bd784c3f, type: 3}
+      propertyPath: cameraMovement
+      value: 
+      objectReference: {fileID: 295536601}
     - target: {fileID: 3140863381302563513, guid: 02c92e2c1d7bf284799c8835bd784c3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -204.31
