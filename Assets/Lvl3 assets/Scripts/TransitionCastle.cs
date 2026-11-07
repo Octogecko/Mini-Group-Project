@@ -2,29 +2,40 @@ using UnityEngine;
 
 public class TransitionCastle : MonoBehaviour
 {
-    [Header("CastleDoor")]
-    public Collider2D doorEnter;
-    public Collider2D doorExit;
-    public GameObject castle;
-    bool hesInside = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Castle")]
+    public GameObject castleFG;
+    public Animator castleAnimator;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Door Settings")]
+    public bool isEntrance;
+
+    private static bool IsInside = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && hesInside == false)
+        if (!collision.CompareTag("Player"))
+            return;
+
+        Debug.Log("Player entered trigger: " + gameObject.name);
+        Debug.Log("IsInside: " + IsInside);
+        Debug.Log("IsEntrance: " + isEntrance);
+        if (!isEntrance && IsInside)
         {
-            castle.SetActive(false);
-            hesInside = true;
+            IsInside = false;
+            Debug.Log("Exited castle!");
+        }
+        if (isEntrance && !IsInside)
+        {
+            IsInside = true;
+            Debug.Log("Entered castle!");
+        }
+        if (IsInside == true)
+        {
+            castleAnimator.SetBool("IsInside", true);
+        }
+        if (IsInside == false)
+        {
+            castleAnimator.SetBool("IsInside", false);
         }
     }
 }
