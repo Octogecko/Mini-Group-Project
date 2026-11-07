@@ -14,6 +14,7 @@ public class PlayerLife : MonoBehaviour
     bool isGameover = false;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
+    bool reload = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,42 +23,38 @@ public class PlayerLife : MonoBehaviour
     }
     void Update()
     {
+        if (reload == true)
+        {
+            //SceneManager.LoadScene(SceneManager.GetSceneByName(""); // I need the first scene name
+            StartCoroutine(GameOverSequence());
+        }
         if (isGameover == true)
         {
             GetComponent<PlayerMovement>().enabled = false;
         }
     }
-
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            if (_life <= 0)
-            {
-                isGameover = true;
-                GetComponent<Animator>().SetBool("ded", true);
-                StartCoroutine(GameOverSequence());
-            }
-            else
-            {
-                GetComponent<Animator>().SetBool("hurt", true);
-            }
-        }
-        if (isGameover == true)
-        {
+            isGameover = true;
+            GetComponent<Animator>().SetBool("ded", true);
             StartCoroutine(GameOverSequence());
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        GetComponent<Animator>().SetBool("hurt",false);
+        if (collision.gameObject.CompareTag("Void"))
+        {
+            isGameover = true;
+            GetComponent<Animator>().SetBool("hurt", true);
+            StartCoroutine(GameOverSequence());
+        }
     }
     private IEnumerator GameOverSequence()
     {
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        GetComponent<Animator>().SetBool("ded", false);
     }
 
 
