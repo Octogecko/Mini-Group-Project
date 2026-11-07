@@ -51,7 +51,7 @@ public class BarrelBehaviour : MonoBehaviour
 
             StartCoroutine(DestroyBarrel());
         }
-        if (collision.gameObject.layer == LayerMask.NameToLayer("BarrelCancel"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Void"))
         {
             destroyed = true;
 
