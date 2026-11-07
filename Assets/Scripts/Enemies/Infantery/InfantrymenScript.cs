@@ -24,6 +24,6 @@ public class InfantrymenScript : MonoBehaviour
 
     bool PlayerIsHigher(Transform player, Transform infantryman)
     {
-        return player.position.y > infantryman.position.y && player.position.x == infantryman.position.x;
+        return player.position.y > infantryman.position.y;
     }
 }
