@@ -4,6 +4,7 @@ public class TransitionCastle : MonoBehaviour
 {
     [Header("Castle")]
     public GameObject castleFG;
+    public Animator castleAnimator;
 
     [Header("Door Settings")]
     public bool isEntrance;
@@ -21,13 +22,13 @@ public class TransitionCastle : MonoBehaviour
 
         if (isEntrance && !IsInside)
         {
-            castleFG.SetActive(false);
+            castleAnimator.SetTrigger("CastleIn");
             IsInside = true;
             Debug.Log("Entered castle!");
         }
         else if (!isEntrance && IsInside)
         {
-            castleFG.SetActive(true);
+            castleAnimator.SetTrigger("CastleOut");
             IsInside = false;
             Debug.Log("Exited castle!");
         }
