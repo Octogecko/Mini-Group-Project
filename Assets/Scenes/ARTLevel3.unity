@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &295536600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3769624422731252553, guid: d7b602f68302c9d418c89e3e74a0b3fc, type: 3}
+  m_PrefabInstance: {fileID: 1315839810}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1083681178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -127,6 +132,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 447394969040548993, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
+      propertyPath: Cam
+      value: 
+      objectReference: {fileID: 295536600}
     - target: {fileID: 1028748365793160955, guid: a9b0388dcdf6c7543a7b53e04cc5c30f, type: 3}
       propertyPath: m_Name
       value: LEVEL ART
