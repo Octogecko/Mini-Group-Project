@@ -25,8 +25,7 @@ public class PlayerLife : MonoBehaviour
     {
         if (reload == true)
         {
-            //SceneManager.LoadScene(SceneManager.GetSceneByName(""); // I need the first scene name
-            StartCoroutine(GameOverSequence());
+            SceneManager.LoadScene(1);
         }
         if (isGameover == true)
         {
