@@ -1,14 +1,11 @@
 using System.Collections;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor.Rendering.Universal.ShaderGUI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
     [SerializeField] private int maxLife = 3;
-    public float invincibilityDuration = 1.0f;
+    [SerializeField] public float invincibilityDuration = 1.0f;
     public float flashInterval = 0.1f;
     private int _life;
     bool isGameover = false;
@@ -62,4 +59,3 @@ public class PlayerLife : MonoBehaviour
         _life -= damage;
     }
 }
-
