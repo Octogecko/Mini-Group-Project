@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Void : MonoBehaviour
 {
@@ -7,7 +6,7 @@ public class Void : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            CheckpointManager.Instance.Respawn(collision.gameObject);
         }
     }
 }

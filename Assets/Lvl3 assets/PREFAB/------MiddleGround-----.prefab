@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 993612196553729645}
   - component: {fileID: 4636595845071387999}
   m_Layer: 0
-  m_Name: sign
+  m_Name: Startsign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
