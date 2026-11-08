@@ -20776,6 +20776,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4193331526565732665, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+      propertyPath: emplacement
+      value: 
+      objectReference: {fileID: 916612812}
+    - target: {fileID: -4193331526565732665, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: beerSteps.Array.size
       value: 4
       objectReference: {fileID: 0}
