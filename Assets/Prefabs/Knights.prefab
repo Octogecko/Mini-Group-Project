@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1636846346593228964}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.95, y: -1.26, z: 0}
+  m_LocalPosition: {x: 0.72, y: -1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -224,6 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   pointL: {fileID: 8498626504305218154}
   pointR: {fileID: 1636846346593228964}
+  player: {fileID: 0}
   knockbackForce: 8
   upwardForce: 8
   speed: 2

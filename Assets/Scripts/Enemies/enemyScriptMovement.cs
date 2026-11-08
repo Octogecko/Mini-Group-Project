@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class enemyScriptMovement : MonoBehaviour
 {
     public GameObject pointL;
     public GameObject pointR;
@@ -51,10 +51,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (PlayerOnTop(player.transform, gameObject.transform))
+            if (PlayerOnTop(player.transform, gameObject.transform) &&  gameObject.name == "Infanteryman") //player.GetComponent<PlayerPowerUp>().Full = true &&
+            {
+                GetComponent<Animator>().SetBool("nom de l'anim", true);
+                GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore(300);
+                Invoke("destroying", 2f);
+            }
+
+            else if (PlayerOnTop(player.transform, gameObject.transform) && gameObject.name != "Infanteryman")
             {
                 GetComponent<Animator>().SetBool("nom de l'anim", true);
                 GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore(100);
+                Invoke("destroying", 2f);
             }
 
             else
@@ -85,4 +93,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
         return player.position.y > infantryman.position.y;
     }
 
+
+    public void destroying()
+    {
+        Destroy(gameObject);
+    }
 }

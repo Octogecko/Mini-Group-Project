@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3333986006874215495}
   - component: {fileID: 5818693040137662880}
+  - component: {fileID: 8888847205182081888}
   - component: {fileID: 5308287244176447489}
-  - component: {fileID: 1440586634512331335}
   - component: {fileID: 5036537564698687319}
   - component: {fileID: 371563681461018523}
   - component: {fileID: 8278118094750197128}
@@ -97,6 +97,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &8888847205182081888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123587630373975595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89551f72cda769842aca9a0cbcc6579b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  pointL: {fileID: 5362139748932693517}
+  pointR: {fileID: 3407871260803305525}
+  player: {fileID: 0}
+  knockbackForce: 8
+  upwardForce: 4
+  speed: 2
+  damage: 1
 --- !u!95 &5308287244176447489
 Animator:
   serializedVersion: 7
@@ -119,24 +138,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1440586634512331335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123587630373975595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89551f72cda769842aca9a0cbcc6579b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  pointL: {fileID: 5362139748932693517}
-  pointR: {fileID: 3407871260803305525}
-  knockbackForce: 8
-  upwardForce: 4
-  speed: 2
-  damage: 1
 --- !u!61 &5036537564698687319
 BoxCollider2D:
   m_ObjectHideFlags: 0
