@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 5529742786363919850}
   - component: {fileID: 1661190707842559111}
   - component: {fileID: 2089968541265473095}
+  - component: {fileID: -4360728412096039270}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -150,7 +151,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300012, guid: 5e812dce1cb6feb49878c322b436627b, type: 3}
+  m_Sprite: {fileID: 8307755318094343403, guid: 0a5ee8d68206a09488b5be692748b62f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,7 +200,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 11.8, y: 19.22}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -260,7 +261,9 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
+  raycastLength: 0.1
   speed: 0
+  coins: 0
 --- !u!114 &1661190707842559111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,3 +364,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-4360728412096039270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927656605202486463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617b4dda62e446f4e91f9b3e09ee1513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLife
+  maxLife: 3
+  invincibilityDuration: 1
+  flashInterval: 0.1
+  forceMode: 1

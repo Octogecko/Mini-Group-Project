@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public bool HammerInInventory = false;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
 
+    // Update is called once per frame
     void Update()
     {
         
