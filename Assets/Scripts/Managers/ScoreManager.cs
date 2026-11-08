@@ -18,6 +18,14 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (GameObject.FindWithTag("Player").GetComponent<PlayerLife>()._life == 0)
+        {
+            score = 0;
+        }
+    }
+
     public void AddScore(int points)
     {
         score += points;

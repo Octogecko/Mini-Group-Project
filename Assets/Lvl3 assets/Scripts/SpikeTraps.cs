@@ -36,6 +36,8 @@ public class SpikeTraps : MonoBehaviour
             {
                 playerHit = true;
 
+                collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
+
                 Vector2 direction = (collision.transform.position - transform.position).normalized;
 
                 direction.y = Mathf.Max(direction.y, 0.3f);

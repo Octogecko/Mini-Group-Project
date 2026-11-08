@@ -3221,9 +3221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 255977594}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &275534560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,9 +3718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 0}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!61 &295451757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5987,9 +5991,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 255977594}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &441189819
 GameObject:
   m_ObjectHideFlags: 0
@@ -9366,9 +9372,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 0}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1001 &708663801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10841,9 +10849,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 821984687}
+  playerAnimator: {fileID: 1562122663}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &832829651
 GameObject:
   m_ObjectHideFlags: 0
@@ -11365,9 +11375,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 0}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &856551184
 GameObject:
   m_ObjectHideFlags: 0
@@ -12850,9 +12862,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 1010928569}
+  playerAnimator: {fileID: 1562122663}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &1026463682
 GameObject:
   m_ObjectHideFlags: 0
@@ -16469,9 +16483,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 0}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &1308309642
 GameObject:
   m_ObjectHideFlags: 0
@@ -16901,9 +16917,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 255977594}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!1 &1368891025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18949,6 +18967,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6927656605202486463, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
   m_PrefabInstance: {fileID: 1679737687}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1562122663 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2089968541265473095, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
+  m_PrefabInstance: {fileID: 1679737687}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1566967519
 GameObject:
   m_ObjectHideFlags: 0
@@ -20794,43 +20817,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 63311359597453839, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.76
+      value: 0.086
       objectReference: {fileID: 0}
     - target: {fileID: 63311359597453839, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.43
+      value: -0.474
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Size.x
-      value: 6.7801685
+      value: 0.47759485
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Size.y
-      value: 10.162867
+      value: 0.68114054
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Offset.x
-      value: -0.16868412
+      value: -0.0020954013
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Offset.y
-      value: -4.2541876
+      value: -0.1161297
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 11.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 154168917451250427, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 19.22
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3744862154541087202, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.65
+      value: -0.103
       objectReference: {fileID: 0}
     - target: {fileID: 3744862154541087202, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.44
+      value: -0.464
       objectReference: {fileID: 0}
     - target: {fileID: 4658238346366110175, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_Sprite
@@ -20838,15 +20861,15 @@ PrefabInstance:
       objectReference: {fileID: 8307755318094343403, guid: 0a5ee8d68206a09488b5be692748b62f, type: 3}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.08
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.08
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.08
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4920054689844607549, guid: a2b06b46c74600844ad78ae6f0d397f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22701,9 +22724,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTraps
   spikeCollider: {fileID: 255977594}
+  playerAnimator: {fileID: 0}
   knockbackForce: 8
   upwardForce: 4
   damage: 1
+  deathAnimationDuration: 1
 --- !u!61 &1823441144
 BoxCollider2D:
   m_ObjectHideFlags: 0

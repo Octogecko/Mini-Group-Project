@@ -7,7 +7,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private int maxLife = 3;
     [SerializeField] public float invincibilityDuration = 1.0f;
     public float flashInterval = 0.1f;
-    private int _life;
+    public int _life;
     bool isGameover = false;
     private Rigidbody2D rb;
     public ForceMode forceMode = ForceMode.Impulse;
@@ -31,7 +31,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Infantryman"))
         {
             isGameover = true;
             GetComponent<Animator>().SetBool("ded", true);
