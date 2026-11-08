@@ -6,6 +6,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     public GameObject pointL;
     public GameObject pointR;
+    public GameObject player;
     private Transform currentPoint;
     private Rigidbody2D rb;
     [Header("KnockBack")]
@@ -50,13 +51,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
-            Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
-            if (playerRb != null)
+            if (PlayerOnTop(player.transform, gameObject.transform))
             {
-                Vector2 direction = (collision.transform.position - transform.position).normalized;
-                direction.y = Mathf.Max(direction.y, 0.3f);
-                playerRb.AddForce(new Vector2(direction.x * knockbackForce, upwardForce),ForceMode2D.Impulse);
+                GetComponent<Animator>().SetBool("nom de l'anim", true);
+                GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore(100);
+            }
+
+            else
+            {
+                collision.gameObject.GetComponent<PlayerLife>().Hurt(damage);
+                Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+                if (playerRb != null)
+                {
+                    Vector2 direction = (collision.transform.position - transform.position).normalized;
+                    direction.y = Mathf.Max(direction.y, 0.3f);
+                    playerRb.AddForce(new Vector2(direction.x * knockbackForce, upwardForce), ForceMode2D.Impulse);
+                }
             }
         }
     }
@@ -68,6 +78,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Gizmos.DrawSphere(pointR.transform.position, 0.5f);
         Gizmos.DrawLine(pointL.transform.position, pointR.transform.position);
     }
-    
-        
+
+
+    bool PlayerOnTop(Transform player, Transform infantryman)
+    {
+        return player.position.y > infantryman.position.y;
+    }
+
 }
