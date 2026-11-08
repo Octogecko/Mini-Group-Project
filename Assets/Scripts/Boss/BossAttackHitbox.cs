@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossAttackHitbox : MonoBehaviour
 {
@@ -16,38 +17,36 @@ public class BossAttackHitbox : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !playerHit)
+        if (!collision.CompareTag("Player") || playerHit)
+            return;
+
+        Rigidbody2D playerRb = collision.GetComponent<Rigidbody2D>();
+
+        if (playerRb == null)
         {
-            Rigidbody2D playerRb = collision.GetComponent<Rigidbody2D>();
-
-            if (playerRb != null)
-            {
-                playerHit = true;
-
-                Vector2 direction =
-                    (collision.transform.position - transform.parent.position).normalized;
-
-                direction.y = Mathf.Max(direction.y, 0.3f);
-
-                playerRb.AddForce(
-                    new Vector2(direction.x * knockbackForce, upwardForce),
-                    ForceMode2D.Impulse
-                );
-
-                StartCoroutine(WaitForDeathAnimation(collision.gameObject));
-            }
-        }
-    }
-
-    private IEnumerator WaitForDeathAnimation(GameObject player)
-    {
-        yield return new WaitForSeconds(deathAnimationDuration);
-
-        if (CheckpointManager.Instance != null)
-        {
-            CheckpointManager.Instance.Respawn(player);
+            Debug.LogError("Player has no Rigidbody2D!");
+            return;
         }
 
-        playerHit = false;
+        playerHit = true;
+
+        Debug.Log("Player hit by boss!");
+
+        Vector2 direction =
+            (collision.transform.position - transform.parent.position).normalized;
+
+        direction.y = Mathf.Max(direction.y, 0.3f);
+
+        playerRb.linearVelocity = Vector2.zero;
+
+        playerRb.AddForce(
+            new Vector2(direction.x * knockbackForce, upwardForce),
+            ForceMode2D.Impulse
+        );
+        if (collision.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
     }
 }
