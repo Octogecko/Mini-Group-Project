@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 
 public class LockCamera : MonoBehaviour
 {
     [SerializeField] private CameraMovement cameraMovement;
     [SerializeField] private bool lockY;
+    [SerializeField] private float delay;
     public float yOffset;
 
     private void Start()
@@ -15,9 +17,14 @@ public class LockCamera : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            cameraMovement.yOffset = yOffset;
-            if (lockY) cameraMovement.LockY();
-            else cameraMovement.UnlockY();
+            StartCoroutine(AddDelay());
         }
+    }
+    private IEnumerator AddDelay()
+    {
+        yield return new WaitForSeconds(delay);
+        cameraMovement.yOffset = yOffset;
+        if (lockY) cameraMovement.LockY();
+        else cameraMovement.UnlockY();
     }
 }

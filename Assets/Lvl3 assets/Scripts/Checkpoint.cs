@@ -2,13 +2,11 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             CheckpointManager.Instance.SetCheckpoint(transform.position);
-
-            Debug.Log("Activated checkpoint: " + gameObject.name);
         }
     }
 }

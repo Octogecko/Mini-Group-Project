@@ -8,7 +8,14 @@ public class CheckpointManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void SetCheckpoint(Vector2 position)
@@ -20,6 +27,15 @@ public class CheckpointManager : MonoBehaviour
 
     public void Respawn(GameObject player)
     {
+        Debug.Log("Respawning player at: " + checkpointPosition);
+
+        Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
         player.transform.position = checkpointPosition;
     }
 }

@@ -171,7 +171,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -212,12 +212,12 @@ TextureImporter:
       name: King Sprite Attack_0
       rect:
         serializedVersion: 2
-        x: 592
-        y: 3009
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 596
+        y: 3028
+        width: 634
+        height: 908
+      alignment: 9
+      pivot: {x: 0.4912068, y: 0.4447422}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: King Sprite Attack_1
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 3032
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2138
+        y: 3028
+        width: 690
+        height: 908
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4447422}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: King Sprite Attack_2
       rect:
         serializedVersion: 2
-        x: 3389
-        y: 3031
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3396
+        y: 3030
+        width: 765
+        height: 830
+      alignment: 9
+      pivot: {x: 0.49271345, y: 0.48656666}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: King Sprite Attack_3
       rect:
         serializedVersion: 2
-        x: 4842
-        y: 3033
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4851
+        y: 3028
+        width: 782
+        height: 799
+      alignment: 9
+      pivot: {x: 0.47148424, y: 0.4999997}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: King Sprite Attack_4
       rect:
         serializedVersion: 2
-        x: 6378
-        y: 3030
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6388
+        y: 3032
+        width: 743
+        height: 834
+      alignment: 9
+      pivot: {x: 0.5150079, y: 0.47326103}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: King Sprite Attack_5
       rect:
         serializedVersion: 2
-        x: 7674
-        y: 3029
-        width: 1118
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7668
+        y: 3030
+        width: 743
+        height: 838
+      alignment: 9
+      pivot: {x: 0.5150079, y: 0.473261}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,59 +341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: King Sprite Attack_11
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 1632
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b23afa67bf8d6c00800000000000000
-      internalID: 895529918853165752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: King Sprite Attack_13
-      rect:
-        serializedVersion: 2
-        x: 2088
-        y: 1637
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56fdbe77031e36b30800000000000000
-      internalID: 4279511669218729829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: King Sprite Attack_15
       rect:
         serializedVersion: 2
-        x: 3286
-        y: 1632
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3283
+        y: 1631
+        width: 838
+        height: 1048
+      alignment: 9
+      pivot: {x: 0.6064427, y: 0.38296998}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +366,12 @@ TextureImporter:
       name: King Sprite Attack_16
       rect:
         serializedVersion: 2
-        x: 4416
-        y: 1639
-        width: 1125
-        height: 1110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 6078
+        y: 1640
+        width: 1035
+        height: 916
+      alignment: 9
+      pivot: {x: 0.7208404, y: 0.43913874}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +388,12 @@ TextureImporter:
       name: King Sprite Attack_17
       rect:
         serializedVersion: 2
-        x: 5991
-        y: 1646
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7751
+        y: 1635
+        width: 625
+        height: 917
+      alignment: 9
+      pivot: {x: 0.59811795, y: 0.4392051}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,45 +407,89 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: King Sprite Attack_18
+      name: King Sprite Attack_8
       rect:
         serializedVersion: 2
-        x: 7746
-        y: 1640
-        width: 1125
-        height: 1100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4418
+        y: 1635
+        width: 1127
+        height: 1079
+      alignment: 9
+      pivot: {x: 0.7028139, y: 0.37599906}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a59523e302fbd890800000000000000
-      internalID: -7432080661535156825
+      spriteID: 31fc6d2d4c12ed24192cc4ec6c1c5523
+      internalID: 1898731699492765454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: King Sprite Attack_32
+      name: King Sprite Attack_10
       rect:
         serializedVersion: 2
-        x: 565
-        y: 252
-        width: 1125
-        height: 1100
+        x: 535
+        y: 1626
+        width: 743
+        height: 834
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d56df19050aa57c00800000000000000
-      internalID: 897810639334921821
+      spriteID: c38a366be0007124f8d11eaf4e50c327
+      internalID: -4805798347402576836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Attack_12
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1631
+        width: 744
+        height: 838
+      alignment: 9
+      pivot: {x: 0.43256205, y: 0.6596621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1db7be66176049a7b980052a7e721
+      internalID: 1862674689944314637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Sprite Attack_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 247
+        width: 651
+        height: 908
+      alignment: 9
+      pivot: {x: 0.6104064, y: 0.44493392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7e39ab1629e348a3fcb49f027eaeb
+      internalID: -732537596
       vertices: []
       indices: 
       edges: []
@@ -506,7 +506,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":2.0},"gridSpriteSize":{"x":894.0,"y":1426.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       King Sprite Attack_0: -1570611937040098142
       King Sprite Attack_1: 270770986278560362
@@ -523,18 +525,14 @@ TextureImporter:
       King Sprite Attack_2: -3686897350565238771
       King Sprite Attack_20: 1933435656460456761
       King Sprite Attack_21: -3398727069600506718
-      King Sprite Attack_22: 8455372429201615108
-      King Sprite Attack_23: -8119292424358794253
-      King Sprite Attack_24: -78350057030136685
-      King Sprite Attack_25: 7256094217569859693
-      King Sprite Attack_26: -7579862000053174974
-      King Sprite Attack_27: -3346520823478439065
-      King Sprite Attack_28: 2329982027204384442
-      King Sprite Attack_29: 4724999837478977541
+      King Sprite Attack_22: -1211736212
+      King Sprite Attack_23: -215823535
+      King Sprite Attack_24: 113866442
+      King Sprite Attack_25: 1861303807
+      King Sprite Attack_26: -1184948078
+      King Sprite Attack_27: -5551488
+      King Sprite Attack_28: -732537596
       King Sprite Attack_3: -2591858641760511710
-      King Sprite Attack_30: -3570932083873013707
-      King Sprite Attack_31: -6443286526663627313
-      King Sprite Attack_32: 897810639334921821
       King Sprite Attack_4: -5715236066440909245
       King Sprite Attack_5: -1181687452437936980
       King Sprite Attack_6: -1783034993814940052
