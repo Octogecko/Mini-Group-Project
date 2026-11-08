@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Void : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            CheckpointManager.Instance.Respawn(collision.gameObject);
+            CheckpointManager.Instance.Respawn(other.gameObject);
         }
     }
 }

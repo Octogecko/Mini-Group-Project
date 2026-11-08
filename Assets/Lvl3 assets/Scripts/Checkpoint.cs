@@ -7,6 +7,8 @@ public class Checkpoint : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CheckpointManager.Instance.SetCheckpoint(transform.position);
+
+            Debug.Log("Activated checkpoint: " + gameObject.name);
         }
     }
 }

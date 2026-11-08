@@ -3,17 +3,23 @@ using UnityEngine;
 public class CheckpointManager : MonoBehaviour
 {
     public static CheckpointManager Instance;
-    public Vector3 lastCheckpointPosition;
+
+    public Vector2 checkpointPosition;
+
     private void Awake()
     {
         Instance = this;
     }
-    public void SetCheckpoint(Vector3 position)
+
+    public void SetCheckpoint(Vector2 position)
     {
-        lastCheckpointPosition = position;
+        checkpointPosition = position;
+
+        Debug.Log("New checkpoint position: " + checkpointPosition);
     }
+
     public void Respawn(GameObject player)
     {
-        player.transform.position = lastCheckpointPosition;
+        player.transform.position = checkpointPosition;
     }
 }
