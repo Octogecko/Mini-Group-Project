@@ -1,7 +1,7 @@
     using System.Collections;
     using UnityEngine;
-
-    public class BossMovement : MonoBehaviour
+    using UnityEngine.SceneManagement;
+public class BossMovement : MonoBehaviour
     {
         public GameObject player;
         [Header("Attack Hitbox")]
@@ -142,7 +142,7 @@
         private IEnumerator AnimationEnded2()
         {
             yield return new WaitForSeconds(1f);
-            gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         }
     private void UpdateHitboxDirection()
