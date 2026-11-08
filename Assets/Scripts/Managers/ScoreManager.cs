@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
@@ -23,6 +23,7 @@ public class ScoreManager : MonoBehaviour
         if (GameObject.FindWithTag("Player").GetComponent<PlayerLife>()._life == 0)
         {
             score = 0;
+            
         }
     }
 

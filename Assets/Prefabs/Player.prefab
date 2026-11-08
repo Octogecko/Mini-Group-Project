@@ -75,9 +75,10 @@ GameObject:
   - component: {fileID: 154168917451250427}
   - component: {fileID: 2540185507988449092}
   - component: {fileID: 5529742786363919850}
+  - component: {fileID: -4193331526565732665}
+  - component: {fileID: -4360728412096039270}
   - component: {fileID: 1661190707842559111}
   - component: {fileID: 2089968541265473095}
-  - component: {fileID: -4360728412096039270}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -200,7 +201,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.8, y: 19.22}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -264,6 +265,37 @@ MonoBehaviour:
   raycastLength: 0.1
   speed: 0
   coins: 0
+--- !u!114 &-4193331526565732665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927656605202486463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d54d6fb6e9f46b41a273f05c6f9748b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPowerUp
+  BeerPieces: 0
+  Full: 0
+--- !u!114 &-4360728412096039270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927656605202486463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617b4dda62e446f4e91f9b3e09ee1513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLife
+  maxLife: 3
+  invincibilityDuration: 1
+  flashInterval: 0.1
+  _life: 0
+  forceMode: 1
 --- !u!114 &1661190707842559111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,19 +396,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-4360728412096039270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6927656605202486463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 617b4dda62e446f4e91f9b3e09ee1513, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerLife
-  maxLife: 3
-  invincibilityDuration: 1
-  flashInterval: 0.1
-  forceMode: 1
