@@ -4,6 +4,12 @@ using UnityEngine;
 public class BossMovement : MonoBehaviour
 {
     public GameObject player;
+    [Header("Attack Hitbox")]
+    public GameObject attackHitbox;
+
+    public float hitboxDuration = 0.3f;
+
+    private bool facingRight = true;
 
     public float speed = 5f;
     public float BossRange = 10f;
@@ -12,6 +18,7 @@ public class BossMovement : MonoBehaviour
     public float wakeUpDuration = 2.3f;
     public float attackDuration = 1.2f;
     public float attackCooldown = 0.5f;
+    public float attackDelay = 1f;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -26,6 +33,7 @@ public class BossMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        attackHitbox.SetActive(false);
     }
 
     void Update()
@@ -46,6 +54,17 @@ public class BossMovement : MonoBehaviour
 
         if (!isAwake || isAttacking) return;
 
+        // Determine direction
+        facingRight = transform.position.x < player.transform.position.x;
+        spriteRenderer.flipX = facingRight;
+
+        // Position hitbox in front of boss
+        Vector3 hitboxPosition = attackHitbox.transform.localPosition;
+
+        hitboxPosition.x = Mathf.Abs(hitboxPosition.x) * (facingRight ? 1 : -1);
+
+        attackHitbox.transform.localPosition = hitboxPosition;
+
         // Attack
         if (distance <= attackRange)
         {
@@ -53,6 +72,7 @@ public class BossMovement : MonoBehaviour
         }
         else
         {
+            // Walk towards player
             animator.SetBool("Attack", false);
             animator.SetBool("Walk", true);
 
@@ -67,9 +87,6 @@ public class BossMovement : MonoBehaviour
                 targetPosition,
                 speed * Time.deltaTime
             );
-
-            spriteRenderer.flipX =
-                transform.position.x < player.transform.position.x;
         }
     }
 
@@ -88,12 +105,23 @@ public class BossMovement : MonoBehaviour
         animator.SetBool("Walk", false);
         animator.SetBool("Attack", true);
 
-        // Wait for attack animation
-        yield return new WaitForSeconds(attackDuration);
+        yield return new WaitForSeconds(attackDelay);
+
+        attackHitbox.SetActive(true);
+
+        yield return new WaitForSeconds(hitboxDuration);
+
+        attackHitbox.SetActive(false);
+
+        float remainingTime = Mathf.Max(
+            0f,
+            attackDuration - attackDelay - hitboxDuration
+        );
+
+        yield return new WaitForSeconds(remainingTime);
 
         animator.SetBool("Attack", false);
 
-        // Wait before allowing another attack
         yield return new WaitForSeconds(attackCooldown);
 
         isAttacking = false;
