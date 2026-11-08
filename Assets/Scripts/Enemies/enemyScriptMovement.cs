@@ -51,7 +51,7 @@ public class enemyScriptMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (PlayerOnTop(player.transform, gameObject.transform) &&  gameObject.name == "Infanteryman") //player.GetComponent<PlayerPowerUp>().Full = true &&
+            if (PlayerOnTop(player.transform, gameObject.transform) == true  && player.GetComponent<PlayerPowerUp>().Full == true &&  gameObject.name == "Infanteryman") 
             {
                 GetComponent<Animator>().SetBool("nom de l'anim", true);
                 GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore(300);
