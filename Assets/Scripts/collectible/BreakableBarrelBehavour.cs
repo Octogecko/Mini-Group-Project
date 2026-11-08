@@ -11,9 +11,18 @@ public class BreakableBarrelBehavour : MonoBehaviour
     {
         if (collision.GetComponent<PlayerMovement>())
         {
-            FindAnyObjectByType<PlayerMovement>().GetComponent<Rigidbody2D>().AddForce(new Vector2(0, Strength));
-            Instantiate(Contain, transform.position, transform.rotation);
-            Destroy(gameObject);
+            FindAnyObjectByType<PlayerMovement>().GetComponent<Rigidbody2D>().linearVelocity = new Vector3(0, Strength,0);
+            Instantiate(Contain, transform.position + new Vector3(0,1.5f,0), transform.rotation);
+            GetComponent<Animator>().SetTrigger("Destroy");
+            foreach(Collider2D i in GetComponents<Collider2D>())
+            {
+                i.enabled = false;
+            }
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 }
