@@ -7,10 +7,14 @@ public class BarrelBehaviour : MonoBehaviour
     public Collider2D barrelCollider;
     public SpriteRenderer barrelRenderer;
     public Rigidbody2D barrelRb;
+    public float barrelStrenghSpeed;
 
     [Header("Explosion")]
     public GameObject explosion;
     public Animator explosionAnimator;
+    [Header("KnockBack")]
+    public float knockbackForce = 8f;
+    public float upwardForce = 4f;
 
     [Header("Respawn")]
     public float respawnDelay = 3f;
@@ -24,7 +28,7 @@ public class BarrelBehaviour : MonoBehaviour
     void Start()
     {
         originalPosition = transform.position;
-
+        barrelRb.linearVelocity = new Vector2(0f, -barrelStrenghSpeed);
         explosion.SetActive(false);
     }
 
@@ -32,7 +36,22 @@ public class BarrelBehaviour : MonoBehaviour
     {
         if (destroyed) return;
 
-        if (collision.gameObject.CompareTag("Player") || collision.gameObject.layer == LayerMask.NameToLayer("BarrelCancel"))
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+            Vector2 direction = (collision.transform.position - transform.position).normalized;
+
+            direction.y = Mathf.Max(direction.y, 0.3f);
+
+            playerRb.AddForce(
+                new Vector2(direction.x * knockbackForce, upwardForce),
+                ForceMode2D.Impulse);
+
+        destroyed = true;
+
+            StartCoroutine(DestroyBarrel());
+        }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Void"))
         {
             destroyed = true;
 
@@ -52,7 +71,6 @@ public class BarrelBehaviour : MonoBehaviour
         explosion.transform.position = transform.position;
         explosion.SetActive(true);
 
-        explosionAnimator.Play("Explosion", 0, 0f);
 
         yield return new WaitForSeconds(
             explosionAnimator.GetCurrentAnimatorStateInfo(0).length
@@ -70,8 +88,8 @@ public class BarrelBehaviour : MonoBehaviour
         transform.position = originalPosition;
 
         barrelRb.bodyType = RigidbodyType2D.Dynamic;
-        barrelRb.linearVelocity = Vector2.zero;
-        barrelRb.angularVelocity = 0f;
+        barrelRb.linearVelocity = new Vector2(0f, -barrelStrenghSpeed);
+        barrelRb.angularVelocity = 1f;
 
         barrelRenderer.enabled = true;
         barrelCollider.enabled = true;
