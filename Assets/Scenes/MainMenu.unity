@@ -583,7 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bf55bc6a8f31b4d8f7c8574851d33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  score: 0
 --- !u!4 &1489456323
 Transform:
   m_ObjectHideFlags: 0
@@ -1194,7 +1193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5220201605908165865, guid: 234f1a263ba530a4ea01d20a6c76c070, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5461167683567063483, guid: 234f1a263ba530a4ea01d20a6c76c070, type: 3}
       propertyPath: m_Pivot.x
