@@ -16,6 +16,7 @@ public class LivesUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        lives = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerLife>()._life;
         AfficherLives();
     }
 
