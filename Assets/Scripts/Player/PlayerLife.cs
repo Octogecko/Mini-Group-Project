@@ -8,54 +8,68 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] public float invincibilityDuration = 1.0f;
     public float flashInterval = 0.1f;
     public int _life;
-    bool isGameover = false;
-    private Rigidbody2D rb;
-    public ForceMode forceMode = ForceMode.Impulse;
-    bool reload = false;
+
+    private bool isGameover = false;
+    private bool invincible = false;
+    private SpriteRenderer sr;
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         _life = maxLife;
-        Scene currentScene = SceneManager.GetActiveScene();
     }
-    void Update()
-    {
-        if (reload == true)
-        {
-            SceneManager.LoadScene(1);
-        }
-        if (isGameover == true)
-        {
-            GetComponent<PlayerMovement>().enabled = false;
-        }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Infantryman"))
-        {
-            isGameover = true;
-            GetComponent<Animator>().SetBool("ded", true);
-            StartCoroutine(GameOverSequence());
-        }
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Void"))
         {
-            isGameover = true;
-            GetComponent<Animator>().SetBool("hurt", true);
-            StartCoroutine(GameOverSequence());
+            Die("hurt");
         }
     }
+
+    public void Hurt(int damage)
+    {
+        if (invincible || isGameover) return;
+
+        _life -= damage;
+
+        if (_life <= 0)
+        {
+            Die("ded");
+        }
+        else
+        {
+            StartCoroutine(InvincibilityRoutine());
+        }
+    }
+
+    private void Die(string animParam)
+    {
+        if (isGameover) return;
+        isGameover = true;
+
+        GetComponent<PlayerMovement>().enabled = false;
+        GetComponent<Animator>().SetBool(animParam, true);
+        StartCoroutine(GameOverSequence());
+    }
+
+    private IEnumerator InvincibilityRoutine()
+    {
+        invincible = true;
+        float elapsed = 0f;
+        while (elapsed < invincibilityDuration)
+        {
+            sr.enabled = !sr.enabled;
+            yield return new WaitForSeconds(flashInterval);
+            elapsed += flashInterval;
+        }
+        sr.enabled = true;
+        invincible = false;
+    }
+
     private IEnumerator GameOverSequence()
     {
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-
-    public void Hurt(int damage)
-    {
-        _life -= damage;
     }
 }

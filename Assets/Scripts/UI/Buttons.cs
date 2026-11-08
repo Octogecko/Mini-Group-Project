@@ -16,13 +16,6 @@ public class Buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (panel.activeSelf)
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                panel.SetActive(false);
-            }
-        }
     }
 
     public void NextScene()
@@ -66,6 +59,13 @@ public class Buttons : MonoBehaviour
 
     public void Controls()
     {
-        panel.SetActive(true);
+        if (panel.activeSelf)
+        {
+            panel.SetActive(false);
+        }
+        else if (!panel.activeSelf)
+        {
+            panel.SetActive(true);
+        }
     }
 }

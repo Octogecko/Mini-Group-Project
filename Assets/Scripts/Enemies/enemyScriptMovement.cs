@@ -57,13 +57,15 @@ public class enemyScriptMovement : MonoBehaviour
         bool stomped = collision.GetContact(0).normal.y < -0.5f;
         Debug.Log(stomped);
 
-        if (stomped && gameObject.tag == "Infanteryman")
+        if (stomped && gameObject.tag == "Infanteryman" && gameObject.GetComponent<PlayerPowerUp>().Full)
         {
             Die(300);
+            collision.gameObject.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 8f);
         }
-        else if (stomped && gameObject.tag != "Infanteryman")
+        else if (stomped && gameObject.tag == "Enemy")
         {
             Die(100);
+            collision.gameObject.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 8f);
         }
         else
         {

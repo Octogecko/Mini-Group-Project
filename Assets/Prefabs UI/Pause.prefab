@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Buttons
   paused: 0
-  panel: {fileID: 0}
+  panel: {fileID: 736448281947685357}
 --- !u!1 &805428664915284544
 GameObject:
   m_ObjectHideFlags: 0
