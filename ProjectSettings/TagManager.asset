@@ -2,13 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - chateau
+  - Enemy
+  - Void
+  - Axe
+  - ScoreManager
+  - Infantryman
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -31,7 +38,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Void
   - 
   - 
   - 
@@ -41,3 +48,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky layer
+    uniqueID: 2369380699
+    locked: 0
+  - name: mountain layer
+    uniqueID: 431327005
+    locked: 0
+  - name: tree layer
+    uniqueID: 733462901
+    locked: 0
+  - name: player
+    uniqueID: 2025339871
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

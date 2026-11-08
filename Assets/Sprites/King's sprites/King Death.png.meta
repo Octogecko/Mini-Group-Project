@@ -1,0 +1,644 @@
+fileFormatVersion: 2
+guid: 0472a05785c3af2439d715c4dfbc95e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9073092841635192165
+    second: King Death_0
+  - first:
+      213: -4662036542375574625
+    second: King Death_1
+  - first:
+      213: -4051471747689861383
+    second: King Death_2
+  - first:
+      213: 8932967164881537117
+    second: King Death_3
+  - first:
+      213: -591348349952766481
+    second: King Death_4
+  - first:
+      213: -3636704142401434294
+    second: King Death_5
+  - first:
+      213: 4085700256748029390
+    second: King Death_6
+  - first:
+      213: -7867429529110430568
+    second: King Death_7
+  - first:
+      213: 3163069755144255275
+    second: King Death_8
+  - first:
+      213: -1402266233258364560
+    second: King Death_9
+  - first:
+      213: 633072335788255834
+    second: King Death_10
+  - first:
+      213: -7823573104353933345
+    second: King Death_11
+  - first:
+      213: 2519643304316022189
+    second: King Death_12
+  - first:
+      213: -4160662535751364081
+    second: King Death_13
+  - first:
+      213: -7269528567432059085
+    second: King Death_14
+  - first:
+      213: -8734498583908492739
+    second: King Death_15
+  - first:
+      213: 7256408267712697838
+    second: King Death_16
+  - first:
+      213: -6917846426447518212
+    second: King Death_17
+  - first:
+      213: 174515158717571503
+    second: King Death_18
+  - first:
+      213: 915862816328291572
+    second: King Death_19
+  - first:
+      213: -6223938330826528912
+    second: King Death_20
+  - first:
+      213: -389820770162923353
+    second: King Death_21
+  - first:
+      213: -323433336787338920
+    second: King Death_22
+  - first:
+      213: -5993771403358909960
+    second: King Death_23
+  - first:
+      213: -6899822686082688357
+    second: King Death_24
+  - first:
+      213: 7770198056661600838
+    second: King Death_25
+  - first:
+      213: 6878488997293911954
+    second: King Death_26
+  - first:
+      213: -1909224016442737822
+    second: King Death_27
+  - first:
+      213: -3571033104670068737
+    second: King Death_28
+  - first:
+      213: -2641073738385251405
+    second: King Death_29
+  - first:
+      213: -1208242548126030942
+    second: King Death_30
+  - first:
+      213: 7593424669987415015
+    second: King Death_31
+  - first:
+      213: -2240009143309413888
+    second: King Death_32
+  - first:
+      213: 8311271214605063682
+    second: King Death_33
+  - first:
+      213: 8711182819865418369
+    second: King Death_34
+  - first:
+      213: -7391425126284745624
+    second: King Death_35
+  - first:
+      213: 6826806358912476763
+    second: King Death_36
+  - first:
+      213: 6868988524650465851
+    second: King Death_37
+  - first:
+      213: -3494706556841336458
+    second: King Death_38
+  - first:
+      213: -3285890164907004725
+    second: King Death_39
+  - first:
+      213: 6452064099228231042
+    second: King Death_40
+  - first:
+      213: 2627904170618213024
+    second: King Death_41
+  - first:
+      213: 1951445235454401598
+    second: King Death_42
+  - first:
+      213: -5824530268282507566
+    second: King Death_43
+  - first:
+      213: -4145359487855316792
+    second: King Death_44
+  - first:
+      213: 7744078651986118004
+    second: King Death_45
+  - first:
+      213: 4110018417854644821
+    second: King Death_46
+  - first:
+      213: -5928785002658974218
+    second: King Death_47
+  - first:
+      213: -8524371947308839252
+    second: King Death_48
+  - first:
+      213: -5321654163022555331
+    second: King Death_49
+  - first:
+      213: 1258737418176429211
+    second: King Death_50
+  - first:
+      213: -1143365161088583714
+    second: King Death_51
+  - first:
+      213: -6289022088341896456
+    second: King Death_52
+  - first:
+      213: 7659024384046099801
+    second: King Death_53
+  - first:
+      213: 4630918894626185750
+    second: King Death_54
+  - first:
+      213: 2457463984201866378
+    second: King Death_55
+  - first:
+      213: 5509117086265612211
+    second: King Death_56
+  - first:
+      213: -8552797748085915345
+    second: King Death_57
+  - first:
+      213: -6510015669657148775
+    second: King Death_58
+  - first:
+      213: -4855655508321294026
+    second: King Death_59
+  - first:
+      213: 1923912281392345327
+    second: King Death_60
+  - first:
+      213: 1352482682055574402
+    second: King Death_61
+  - first:
+      213: 5191608524884722848
+    second: King Death_62
+  - first:
+      213: -387277460891290380
+    second: King Death_63
+  - first:
+      213: -9131099544299053680
+    second: King Death_64
+  - first:
+      213: -4873097129701005182
+    second: King Death_65
+  - first:
+      213: 3383948082614627775
+    second: King Death_66
+  - first:
+      213: -3346262917525713327
+    second: King Death_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: King Death_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 4097
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d1ecf3ed91aed70800000000000000
+      internalID: 9073092841635192165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_3
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 4109
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d580efcbe4648fb70800000000000000
+      internalID: 8932967164881537117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_4
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 4109
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed4d8e0fcb1bc7f0800000000000000
+      internalID: -591348349952766481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2797
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f029346c77b5246c0800000000000000
+      internalID: -4160662535751364081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_20
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2804
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077a52f501120a9a0800000000000000
+      internalID: -6223938330826528912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_27
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 2804
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b394f5fd21185e0800000000000000
+      internalID: -1909224016442737822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1492
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0a53c0e853b980800000000000000
+      internalID: -8524371947308839252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_50
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1482
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cf5e3430fe77110800000000000000
+      internalID: 1258737418176429211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_54
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 1490
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612a6d1f234544040800000000000000
+      internalID: 4630918894626185750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 103
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdeb9a2ad236fe20800000000000000
+      internalID: 3383948082614627775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: King Death_67
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 117
+        width: 1125
+        height: 1100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e41d31b9faf81d0800000000000000
+      internalID: -3346262917525713327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7a8d99e0b6f653c46afa507fe428ef4f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      King Death_0: 9073092841635192165
+      King Death_1: -4662036542375574625
+      King Death_10: 633072335788255834
+      King Death_11: -7823573104353933345
+      King Death_12: 2519643304316022189
+      King Death_13: -4160662535751364081
+      King Death_14: -7269528567432059085
+      King Death_15: -8734498583908492739
+      King Death_16: 7256408267712697838
+      King Death_17: -6917846426447518212
+      King Death_18: 174515158717571503
+      King Death_19: 915862816328291572
+      King Death_2: -4051471747689861383
+      King Death_20: -6223938330826528912
+      King Death_21: -389820770162923353
+      King Death_22: -323433336787338920
+      King Death_23: -5993771403358909960
+      King Death_24: -6899822686082688357
+      King Death_25: 7770198056661600838
+      King Death_26: 6878488997293911954
+      King Death_27: -1909224016442737822
+      King Death_28: -3571033104670068737
+      King Death_29: -2641073738385251405
+      King Death_3: 8932967164881537117
+      King Death_30: -1208242548126030942
+      King Death_31: 7593424669987415015
+      King Death_32: -2240009143309413888
+      King Death_33: 8311271214605063682
+      King Death_34: 8711182819865418369
+      King Death_35: -7391425126284745624
+      King Death_36: 6826806358912476763
+      King Death_37: 6868988524650465851
+      King Death_38: -3494706556841336458
+      King Death_39: -3285890164907004725
+      King Death_4: -591348349952766481
+      King Death_40: 6452064099228231042
+      King Death_41: 2627904170618213024
+      King Death_42: 1951445235454401598
+      King Death_43: -5824530268282507566
+      King Death_44: -4145359487855316792
+      King Death_45: 7744078651986118004
+      King Death_46: 4110018417854644821
+      King Death_47: -5928785002658974218
+      King Death_48: -8524371947308839252
+      King Death_49: -5321654163022555331
+      King Death_5: -3636704142401434294
+      King Death_50: 1258737418176429211
+      King Death_51: -1143365161088583714
+      King Death_52: -6289022088341896456
+      King Death_53: 7659024384046099801
+      King Death_54: 4630918894626185750
+      King Death_55: 2457463984201866378
+      King Death_56: 5509117086265612211
+      King Death_57: -8552797748085915345
+      King Death_58: -6510015669657148775
+      King Death_59: -4855655508321294026
+      King Death_6: 4085700256748029390
+      King Death_60: 1923912281392345327
+      King Death_61: 1352482682055574402
+      King Death_62: 5191608524884722848
+      King Death_63: -387277460891290380
+      King Death_64: -9131099544299053680
+      King Death_65: -4873097129701005182
+      King Death_66: 3383948082614627775
+      King Death_67: -3346262917525713327
+      King Death_7: -7867429529110430568
+      King Death_8: 3163069755144255275
+      King Death_9: -1402266233258364560
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
