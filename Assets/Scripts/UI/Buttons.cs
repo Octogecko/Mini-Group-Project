@@ -16,6 +16,22 @@ public class Buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        {
+            NextScene();
+        }
+
+        else if (Input.GetKeyDown(KeyCode.JoystickButton2))
+        {
+            Controls();
+        }
+
+        else if (Input.GetKeyDown(KeyCode.JoystickButton1))
+        {
+            Quit();
+        }
+
+
     }
 
     public void NextScene()
